@@ -63,9 +63,9 @@ function subscribe_reloaded_show(){
 		}
 		else{
 			$checkbox_field = "<select name='subscribe-reloaded' id='subscribe-reloaded'>
-				<option value='none'>".__("Don't subscribe",'subscribe-reloaded')."</option>
-				<option value='yes'".((get_option('subscribe_reloaded_checked_by_default', 'no') == 'yes')?" selected='selected'":'').">".__('All','subscribe-reloaded')."</option>
-				<option value='replies'>".__('Replies to my comments','subscribe-reloaded')."</option>
+				<option value='none'>".__("don't email me",'subscribe-reloaded')."</option>
+				<option value='yes'>".__('email me when anyone posts a new comment','subscribe-reloaded')."</option>
+				<option value='replies'".((get_option('subscribe_reloaded_checked_by_default', 'no') == 'yes')?" selected='selected'":'').">".__('email me when someone replies to this comment','subscribe-reloaded')."</option>
 				<!-- option value='digest'>".__('Daily digest','subscribe-reloaded')."</option -->
 			</select>";
 		}
