@@ -515,7 +515,7 @@ class wp_subscribe_reloaded{
 				'post_excerpt' => '',
 				'post_status' => 'publish',
 				'comment_status' => 'closed',
-				'ping_status' => 'closed',[comment_permalink]
+				'ping_status' => 'closed',
 				'post_password' => '',
 				'to_ping' => '',
 				'pinged' => '',
