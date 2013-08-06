@@ -919,6 +919,11 @@ class wp_subscribe_reloaded{
 		$manager_link .= ((strpos($manager_link, '?') !== false)?'&':'?')."sre=".urlencode($clean_email)."&srk=$subscriber_salt";
 
 		$headers = "From: $from_name <$from_email>\n";
+
+		if (get_option('subscribe_reloaded_admin_bcc', 'no') == 'yes') {
+			$headers .= "Bcc: $from_name <$from_email>\n";
+		}
+
 		$content_type = (get_option('subscribe_reloaded_enable_html_emails', 'no') == 'yes')?'text/html':'text/plain';
 		$headers .= "Content-Type: $content_type; charset=".get_bloginfo('charset')."\n";
 
