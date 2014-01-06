@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Subscribe to Comments Reloaded
+Plugin Name: - [Modified by Raam Dev] Subscribe to Comments Reloaded
 Version: 2.0.3
 Plugin URI: http://wordpress.org/extend/plugins/subscribe-to-comments-reloaded/
 Description: Subscribe to Comments Reloaded is a robust plugin that enables commenters to sign up for e-mail notifications. It includes a full-featured subscription manager that your commenters can use to unsubscribe to certain posts or suspend all notifications.
@@ -63,9 +63,9 @@ function subscribe_reloaded_show(){
 		}
 		else{
 			$checkbox_field = "<select name='subscribe-reloaded' id='subscribe-reloaded'>
-				<option value='none'>".__("Don't subscribe",'subscribe-reloaded')."</option>
-				<option value='yes'".((get_option('subscribe_reloaded_checked_by_default', 'no') == 'yes')?" selected='selected'":'').">".__('All','subscribe-reloaded')."</option>
-				<option value='replies'>".__('Replies to my comments','subscribe-reloaded')."</option>
+				<option value='none'>".__("None",'subscribe-reloaded')."</option>
+				<option value='yes'>".__('All new comments','subscribe-reloaded')."</option>
+				<option value='replies'".((get_option('subscribe_reloaded_checked_by_default', 'no') == 'yes')?" selected='selected'":'').">".__('Replies to this comment','subscribe-reloaded')."</option>
 				<!-- option value='digest'>".__('Daily digest','subscribe-reloaded')."</option -->
 			</select>";
 		}
@@ -78,7 +78,7 @@ function subscribe_reloaded_show(){
 		}
 	}
 	if(function_exists('qtrans_useCurrentLanguageIfNotFoundUseDefaultLanguage')) $html_to_show = qtrans_useCurrentLanguageIfNotFoundUseDefaultLanguage($html_to_show);
-	echo "<!-- BEGIN: subscribe to comments reloaded -->$html_to_show<!-- END: subscribe to comments reloaded -->";
+	echo "<!-- BEGIN: subscribe to comments reloaded --><p class=\"comment-form-subscriptions\">$html_to_show</p><!-- END: subscribe to comments reloaded -->";
 }
 
 // Show the checkbox - You can manually override this by adding the corresponding function in your template
@@ -919,6 +919,11 @@ class wp_subscribe_reloaded{
 		$manager_link .= ((strpos($manager_link, '?') !== false)?'&':'?')."sre=".urlencode($clean_email)."&srk=$subscriber_salt";
 
 		$headers = "From: $from_name <$from_email>\n";
+
+		if (get_option('subscribe_reloaded_admin_bcc', 'no') == 'yes') {
+			$headers .= "Bcc: $from_name <$from_email>\n";
+		}
+
 		$content_type = (get_option('subscribe_reloaded_enable_html_emails', 'no') == 'yes')?'text/html':'text/plain';
 		$headers .= "Content-Type: $content_type; charset=".get_bloginfo('charset')."\n";
 
@@ -926,14 +931,23 @@ class wp_subscribe_reloaded{
 		$comment = get_comment($_comment_ID);
 		$post_permalink = get_permalink( $_post_ID );
 		$comment_permalink = get_comment_link($_comment_ID);
+		$comment_reply_permalink = get_permalink( $_post_ID ) . '?replytocom=' . $_comment_ID . '#respond';
+
+		$comment_content = $comment->comment_content;
+
+		// Add HTML paragraph tags to comment
+		// See wp-includes/formatting.php for details on the wpautop() function
+		if ($content_type == 'text/html')
+			$comment_content = wpautop($comment->comment_content);
 
 		// Replace tags with their actual values
 		$subject = str_replace('[post_title]', $post->post_title, $subject);
 
 		$message = str_replace('[post_permalink]', $post_permalink, $message);
 		$message = str_replace('[comment_permalink]', $comment_permalink, $message);
+		$message = str_replace('[comment_reply_permalink]', $comment_reply_permalink, $message);
 		$message = str_replace('[comment_author]', $comment->comment_author, $message);
-		$message = str_replace('[comment_content]', $comment->comment_content, $message);
+		$message = str_replace('[comment_content]', $comment_content, $message);
 		$message = str_replace('[manager_link]', $manager_link, $message);
 
 		// QTranslate support
