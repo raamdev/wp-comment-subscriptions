@@ -1,15 +1,14 @@
-=== Subscribe To Comments Reloaded ===
-Contributors: coolmann, andreasbo
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=Z732JS7KQ6RRL&lc=US&item_name=Subscribe%20To%20Comments%20Reloaded&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted
-Tags: subscribe, comments, notification, subscription, manage, double check-in, follow, commenting
+=== WP Comment Subscriptions ===
+Contributors: raamdev
+Tags: subscribe, comments, notification, subscription, manage, double check-in, follow, commenting, subscribe to comments, comment subscriptions, comment notifications
 Requires at least: 2.9.2
 Tested up to: 3.5
 Stable tag: 2.0.3
 
-Subscribe to Comments Reloaded allows commenters to sign up for e-mail notifications of subsequent replies.
+WP Comment Subscriptions allows commenters to sign up for e-mail notifications of subsequent replies.
 
 == Description ==
-Subscribe to Comments Reloaded is a robust plugin that enables commenters to sign up for e-mail notification of subsequent entries. The plugin includes a full-featured subscription manager that your commenters can use to unsubscribe to certain posts or suspend all notifications. It solves most of the issues that affect Mark Jaquith's version, using the latest Wordpress features and functionality. Plus, allows administrators to enable a double opt-in mechanism, requiring users to confirm their subscription clicking on a link they will receive via email.
+WP Comment Subscriptions is a robust plugin that enables commenters to sign up for e-mail notification of subsequent entries. The plugin includes a full-featured subscription manager that your commenters can use to unsubscribe to certain posts or suspend all notifications. It solves most of the issues that affect Mark Jaquith's version, using the latest Wordpress features and functionality. Plus, allows administrators to enable a double opt-in mechanism, requiring users to confirm their subscription clicking on a link they will receive via email.
 
 ## Requirements
 * Wordpress 2.9.2 or higher
@@ -19,6 +18,7 @@ Subscribe to Comments Reloaded is a robust plugin that enables commenters to sig
 ## Main Features
 * Does not modify Wordpress core tables
 * Easily manage and search among your subscriptions
+* Supports existing subscriptions created via the Subscribe to Comments Reloaded plugin
 * Imports Mark Jaquith's Subscribe To Comments (and its clones) data
 * Messages are fully customizable, no poEdit required (and you can use HTML!)
 * Disable subscriptions for specific posts
@@ -29,8 +29,8 @@ Subscribe to Comments Reloaded is a robust plugin that enables commenters to sig
 1. If you are using Subscribe To Comments by Mark Jaquith, disable it (no need to uninstall it, though)
 2. Upload the entire folder and all the subfolders to your Wordpress plugins' folder
 3. Activate it
-5. Customize the Permalink value under Settings > Subscribe to Comments > Management Page > Management URL. It **must** reflect your permalinks' structure
-5. If you don't see the checkbox to subscribe, you will have to manually edit your template, and add `<?php if (function_exists('subscribe_reloaded_show')) subscribe_reloaded_show(); ?>` somewhere in your `comments.php`
+5. Customize the Permalink value under Settings > Comment Subscriptions > Management Page > Management URL. It **must** reflect your permalinks' structure
+5. If you don't see the checkbox to subscribe, you will have to manually edit your template, and add `<?php if (function_exists('wp_comment_subscriptions_show')) wp_comment_subscriptions_show(); ?>` somewhere in your `comments.php`
 6. If you're upgrading from a previous version, please **make sure to deactivate/activate** StCR
 
 == Frequently Asked Questions ==
@@ -49,11 +49,11 @@ Add a custom field called `stcr_disable_subscriptions` to it, with value 'yes'
 
 = How do I add the management page URL to my posts? =
 Use the shortcode `[subscribe-url]`, or use the following code in your theme: 
-`if(function_exists('subscribe_reloaded_show')) echo '<a href="'.do_shortcode('[subscribe-url]').'">Subscribe</a>";`
+`if(function_exists('wp_comment_subscriptions_show')) echo '<a href="'.do_shortcode('[subscribe-url]').'">Subscribe</a>";`
 
 = Can I move the subscription checkbox to another position? =
 Yes! Just disable the corresponding option under Settings > Comment Form and then add the following code where you want to display the checkbox:
-`<?php if (function_exists('subscribe_reloaded_show')) subscribe_reloaded_show(); ?>`
+`<?php if (function_exists('wp_comment_subscriptions_show')) wp_comment_subscriptions_show(); ?>`
 
 == Screenshots ==
 
@@ -67,7 +67,7 @@ Yes! Just disable the corresponding option under Settings > Comment Form and the
 * I would like to thank Andreas for contributing to the project and fixing some issues with the plugin
 
 = 2.0.2 =
-* Added: option to automatically subscribe authors to their posts (improves Wordpress' default alert system, thank you [Julius](http://wordpress.org/support/topic/plugin-subscribe-to-comments-reloaded-does-the-post-author-automatically-get-subscribed-to-comments))
+* Added: option to automatically subscribe authors to their posts (improves Wordpress' default alert system, thank you [Julius](http://wordpress.org/support/topic/plugin-wp-comment-subscriptions-does-the-post-author-automatically-get-subscribed-to-comments))
 * Added: number of subscriptions per post in the Posts page
 * Added: Serbian and Indonesian localization (thank you [Anna](http://www.sneg.iz.rs/) and [The Masked Cat](http://themaskedcat.tk))
 * Fixed: bug in daily purge SQL command
@@ -91,7 +91,7 @@ Yes! Just disable the corresponding option under Settings > Comment Form and the
 * Added: double opt-in is only required once, users with at least one active subscription will automatically get approved
 * Added: administrators can add new subscriptions on-the-fly
 * Added: if Akismet is detected, it will now be used to check those who subscribe without commenting
-* Added: new shortcode to add the management page URL to your posts/widgets (thank you [Greg](http://wordpress.org/support/topic/plugin-subscribe-to-comments-reloaded-plugin-does-not-create-table))
+* Added: new shortcode to add the management page URL to your posts/widgets (thank you [Greg](http://wordpress.org/support/topic/plugin-wp-comment-subscriptions-plugin-does-not-create-table))
 * Added: option to enable "advanced" subscription mode, where users can choose what kind of subscription they want to activate (all, replies only)
 * Added: new localizations
 * Added: security checks when uninstalling the plugin
@@ -103,7 +103,7 @@ Yes! Just disable the corresponding option under Settings > Comment Form and the
 
 == Language Localization ==
 
-Subscribe to Comments Reloaded can speak your language! If you want to provide a localized file in your
+WP Comment Subscriptions can speak your language! If you want to provide a localized file in your
 language, use the template files (.pot) you'll find inside the `langs` folder,
 and [contact me](http://www.duechiacchiere.it/contatto) once your
 localization is ready. Currently, we support the following languages:
@@ -111,7 +111,7 @@ localization is ready. Currently, we support the following languages:
 * Danish - [Torben Bendixen](http://www.freelancekonsulenten.dk/)
 * Dutch - [Muratje](http://www.muromedia.nl/)
 * French - [Anthony](http://imnotgeek.com/), Goormand, Maxime
-* German - [derhenry](http://www.derhenry.net/2010/subscribe-to-comments-reloaded/), [Stefan](http://www.beedy.de/)
+* German - [derhenry](http://www.derhenry.net/2010/wp-comment-subscriptions/), [Stefan](http://www.beedy.de/)
 * Indonesian - [The Masked Cat](http://themaskedcat.tk)
 * Italian - myself
 * Norwegian - [Odd Henriksen](http://www.oddhenriksen.net/)

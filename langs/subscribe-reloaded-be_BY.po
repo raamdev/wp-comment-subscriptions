@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Subscribe to Comments Reloaded\n"
+"Project-Id-Version: WP Comment Subscriptions\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-22 08:12-0500\n"
 "PO-Revision-Date: 2011-11-22 08:12-0500\n"
@@ -16,81 +16,81 @@ msgstr ""
 "Plural-Forms: s\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: subscribe-to-comments-reloaded.php:40
-#: subscribe-to-comments-reloaded.php:229
+#: wp-comment-subscriptions.php:40
+#: wp-comment-subscriptions.php:229
 msgid "Your subscription to this post needs to be confirmed. <a href='[manager_link]'>Manage your subscriptions</a>."
 msgstr "Ваша падпіска на гэты артыкул мае патрэбу ў пацверджанні. <a href='[manager_link]'>Рэдагаваць</a> свае падпіскі."
 
-#: subscribe-to-comments-reloaded.php:45
-#: subscribe-to-comments-reloaded.php:228
+#: wp-comment-subscriptions.php:45
+#: wp-comment-subscriptions.php:228
 msgid "You are subscribed to this post. <a href='[manager_link]'>Manage</a> your subscriptions."
 msgstr "Вы падпісаны на гэты артыкул. <a href='[manager_link]'>Рэдагаваць</a> свае падпіскі."
 
-#: subscribe-to-comments-reloaded.php:52
-#: subscribe-to-comments-reloaded.php:230
+#: wp-comment-subscriptions.php:52
+#: wp-comment-subscriptions.php:230
 msgid "You can <a href='[manager_link]'>manage the subscriptions</a> of this post."
 msgstr "Вы можаце <a href='[manager_link]'>кіраваць падпіскамі</a> на гэты запіс."
 
-#: subscribe-to-comments-reloaded.php:57
-#: subscribe-to-comments-reloaded.php:227
+#: wp-comment-subscriptions.php:57
+#: wp-comment-subscriptions.php:227
 msgid "Notify me of followup comments via e-mail. You can also <a href='[subscribe_link]'>subscribe</a> without commenting."
 msgstr "Атрымліваць новыя каментары па электроннай пошце. Вы можаце <a href='[subscribe_link]'>падпісацца</a> без каментавання."
 
-#: subscribe-to-comments-reloaded.php:66
+#: wp-comment-subscriptions.php:66
 msgid "Don't subscribe"
 msgstr "Не падпісвацца"
 
-#: subscribe-to-comments-reloaded.php:67
+#: wp-comment-subscriptions.php:67
 msgid "All"
 msgstr "Усё"
 
-#: subscribe-to-comments-reloaded.php:68
+#: wp-comment-subscriptions.php:68
 #: templates/user.php:65
 msgid "Replies to my comments"
 msgstr "Адказы на мае каментары"
 
-#: subscribe-to-comments-reloaded.php:69
+#: wp-comment-subscriptions.php:69
 msgid "Daily digest"
 msgstr "Штодзённы дайджэст"
 
-#: subscribe-to-comments-reloaded.php:233
+#: wp-comment-subscriptions.php:233
 #: options/index.php:46
 msgid "Manage subscriptions"
 msgstr "Рэдагаваць падпіскі"
 
-#: subscribe-to-comments-reloaded.php:235
+#: wp-comment-subscriptions.php:235
 msgid "To manage your subscriptions, please enter your email address here below. We will send you a message containing the link to access your personal management page."
 msgstr "Для кіравання сваімі падпіскамі, калі ласка, увядзіце свой электронны адрас у форму ніжэй. Мы адправім вам паведамленне са спасылкай на вашу персанальную старонку кіравання."
 
-#: subscribe-to-comments-reloaded.php:236
+#: wp-comment-subscriptions.php:236
 msgid "Thank you for using our subscription service. Your request has been completed, and you should receive an email with the management link in a few minutes."
 msgstr "Дзякуй, што карыстаецеся нашым сэрвісам падпісак. Ваш запыт выкананы. На працягу некалькіх хвілін вы павінны атрымаць ліст са спасылкай на старонку кіравання падпіскамі."
 
-#: subscribe-to-comments-reloaded.php:237
+#: wp-comment-subscriptions.php:237
 msgid "You can follow the discussion on <strong>[post_title]</strong> without having to leave a comment. Cool, huh? Just enter your email address in the form here below and you're all set."
 msgstr "Вы можаце сачыць за абмеркаваннем артыкула <strong>[post_title]</strong>, не пакідаючы свайго каментара. Выдатна, ці не праўда? Проста ўвядзіце свой электронны адрас у форму ніжэй, і гатова!"
 
-#: subscribe-to-comments-reloaded.php:238
+#: wp-comment-subscriptions.php:238
 msgid "Thank you for using our subscription service. Your request has been completed. You will receive a notification email every time a new comment to this article is approved and posted by the administrator."
 msgstr "Дзякуй, што карыстаецеся нашым сэрвісам падпісак. Ваш запыт выкананы. Вы будзеце атрымліваць апавяшчэнні кожных разоў, як новы каментар да гэты артыкулу будзе ўхвалены і апублікаваны адміністратарам сайта."
 
-#: subscribe-to-comments-reloaded.php:239
+#: wp-comment-subscriptions.php:239
 msgid "Thank you for using our subscription service. In order to confirm your request, please check your email for the verification message and follow the instructions."
 msgstr "Дзякуй, што карыстаецеся нашым сэрвісам падпісак. Каб пацвердзіць свой запыт, калі ласка, праверце сваю пошту і вынікайце інструкцыям у лісце пра пацверджанне."
 
-#: subscribe-to-comments-reloaded.php:240
+#: wp-comment-subscriptions.php:240
 msgid "In order to cancel or suspend one or more notifications, select the corresponding checkbox(es) and click on the button at the end of the list."
 msgstr "Каб адмяніць ці прыпыніць адно ці больш апавяшчэнняў, пстрыкніце ў адпаведным акенцы выбару і націсніце на кнопку ў канцы спісу."
 
-#: subscribe-to-comments-reloaded.php:241
+#: wp-comment-subscriptions.php:241
 msgid "In order to cancel or suspend one or more notifications, select the corresponding checkbox(es) and click on the button at the end of the list. You are currently subscribed to:"
 msgstr "Каб адмяніць ці прыпыніць адно ці больш апавяшчэнняў, пстрыкніце ў адпаведным акенцы выбару і націсніце на кнопку ў канцы спісу. На дадзены момант вы падпісаны на:"
 
-#: subscribe-to-comments-reloaded.php:245
+#: wp-comment-subscriptions.php:245
 msgid "There is a new comment to [post_title]"
 msgstr "З'явіўся новы каментар да артыкула [post_title]"
 
-#: subscribe-to-comments-reloaded.php:246
+#: wp-comment-subscriptions.php:246
 msgid ""
 "There is a new comment to [post_title].\n"
 "Comment Link: [comment_permalink]\n"
@@ -109,11 +109,11 @@ msgstr ""
 "Спасылка на артыкул: [post_permalink]\n"
 "Кіраванне падпіскамі: [manager_link]"
 
-#: subscribe-to-comments-reloaded.php:247
+#: wp-comment-subscriptions.php:247
 msgid "Please confirm your subscription to [post_title]"
 msgstr "Калі ласка, пацвердзіце сваю падпіску на артыкул [post_title]"
 
-#: subscribe-to-comments-reloaded.php:248
+#: wp-comment-subscriptions.php:248
 msgid ""
 "You have requested to be notified every time a new comment is added to:\n"
 "[post_permalink]\n"
@@ -127,11 +127,11 @@ msgstr ""
 "Калі ласка, перайдзіце па наступнай спасылцы, каб пацвердзіць падпіску:\n"
 "[confirm_link]"
 
-#: subscribe-to-comments-reloaded.php:249
+#: wp-comment-subscriptions.php:249
 msgid "Manage your subscriptions on [blog_name]"
 msgstr "Рэдагаваць свае падпіскі на сайце [blog_name]"
 
-#: subscribe-to-comments-reloaded.php:250
+#: wp-comment-subscriptions.php:250
 msgid ""
 "You have requested to manage your subscriptions to the articles on [blog_name]. Follow this link to access your personal page:\n"
 "[manager_link]"
@@ -139,7 +139,7 @@ msgstr ""
 "Вы зрабілі запыт на рэдагаванне сваіх падпісак на каментары да артыкулаў на сайце [blog_name]. Вось спасылка на вашу асабістую старонку кіравання падпіскамі:\n"
 "[manager_link]"
 
-#: subscribe-to-comments-reloaded.php:1018
+#: wp-comment-subscriptions.php:1018
 #: options/panel2.php:42
 #: options/panel2.php:49
 #: options/panel2.php:56
@@ -152,19 +152,19 @@ msgstr ""
 msgid "No"
 msgstr "Не"
 
-#: subscribe-to-comments-reloaded.php:1042
-msgid "Need help on how to use Subscribe to Comments Reloaded? Visit the official"
-msgstr "Патрэбна дапамога ў использовани убудовы Subscribe to Comments Reloaded? Наведаеце наш афіцыйны"
+#: wp-comment-subscriptions.php:1042
+msgid "Need help on how to use WP Comment Subscriptions? Visit the official"
+msgstr "Патрэбна дапамога ў использовани убудовы WP Comment Subscriptions? Наведаеце наш афіцыйны"
 
-#: subscribe-to-comments-reloaded.php:1042
+#: wp-comment-subscriptions.php:1042
 msgid "support forum"
 msgstr "форум падтрымкі"
 
-#: subscribe-to-comments-reloaded.php:1043
+#: wp-comment-subscriptions.php:1043
 msgid "Feeling generous?"
 msgstr "Жадаеце выявіць шчодрасць?"
 
-#: subscribe-to-comments-reloaded.php:1043
+#: wp-comment-subscriptions.php:1043
 msgid "Donate a few bucks!"
 msgstr "Ахвяруйце пару баксаў!"
 
@@ -916,24 +916,24 @@ msgid "Support the author"
 msgstr "Падтрымаць аўтара"
 
 #: options/panel6.php:16
-msgid "How valuable is the feature offered by this plugin to your visitors? Subscribe to Comments Reloaded is and will always be free, but consider supporting the author if this plugin made your web site better, especially if you are making money out of it. Any donation received will be reinvested in the development of Subscribe to Comments Reloaded, and to buy some food for my hungry family."
-msgstr "Наколькі важная функцыя, якую падае гэта ўбудова для вашых наведвальнікаў? Убудова <b>Subscribe to Comments Reloaded</b> ёсць і заўсёды будзе бясплатным, але падумайце над тым, каб падтрымаць аўтара, калі гэта ўбудова зрабіла ваш сайт трохі лепш, асабліва калі вы зарабляеце грошы з дапамогай свайго сайта. Усе ахвяраванні будуць скарыстаны для развіцця ўбудовы <b>Subscribe to Comments Reloaded</b> і на тое, каб купіць трохі ежы маёй галоднай сям'і."
+msgid "How valuable is the feature offered by this plugin to your visitors? WP Comment Subscriptions is and will always be free, but consider supporting the author if this plugin made your web site better, especially if you are making money out of it. Any donation received will be reinvested in the development of WP Comment Subscriptions, and to buy some food for my hungry family."
+msgstr "Наколькі важная функцыя, якую падае гэта ўбудова для вашых наведвальнікаў? Убудова <b>WP Comment Subscriptions</b> ёсць і заўсёды будзе бясплатным, але падумайце над тым, каб падтрымаць аўтара, калі гэта ўбудова зрабіла ваш сайт трохі лепш, асабліва калі вы зарабляеце грошы з дапамогай свайго сайта. Усе ахвяраванні будуць скарыстаны для развіцця ўбудовы <b>WP Comment Subscriptions</b> і на тое, каб купіць трохі ежы маёй галоднай сям'і."
 
 #: options/panel6.php:18
 msgid "Don't want to donate? You can still help"
 msgstr "Не жадаеце рабіць ахвяраванне? Вы ўсё адно можаце дапамагчы"
 
 #: options/panel6.php:19
-msgid "If you don't want to donate money, please consider blogging about my plugin with a link to the plugin's page. Please let your readers know what makes your blog better. You can also contribute donating your time: do not hesitate to send me bug reports, your localization files, ideas on how to improve Subscribe to Comments Reloaded and so on. Whatever you do, thanks for using my plugin!"
-msgstr "Калі вы не жадаеце дапамагчы грашыма, калі ласка, разгледзіце магчымасць напісаць пра маю ўбудову ў сваім блогу і пакінуць спасылку на старонку ўбудовы. Калі ласка, распавядзіце сваім чытачам, што робіць ваш блог лепш. Вы можаце таксама ахвяраваць свой час: не саромейцеся адпраўляць мне справаздачы пра памылкі, свае файлы лакалізацыі, ідэі па паляпшэнні ўбудовы <b>Subscribe to Comments Reloaded</b> і гэтак далей. Што б вы ні абралі, дзякуй, што карыстаецеся маёй убудовай!"
+msgid "If you don't want to donate money, please consider blogging about my plugin with a link to the plugin's page. Please let your readers know what makes your blog better. You can also contribute donating your time: do not hesitate to send me bug reports, your localization files, ideas on how to improve WP Comment Subscriptions and so on. Whatever you do, thanks for using my plugin!"
+msgstr "Калі вы не жадаеце дапамагчы грашыма, калі ласка, разгледзіце магчымасць напісаць пра маю ўбудову ў сваім блогу і пакінуць спасылку на старонку ўбудовы. Калі ласка, распавядзіце сваім чытачам, што робіць ваш блог лепш. Вы можаце таксама ахвяраваць свой час: не саромейцеся адпраўляць мне справаздачы пра памылкі, свае файлы лакалізацыі, ідэі па паляпшэнні ўбудовы <b>WP Comment Subscriptions</b> і гэтак далей. Што б вы ні абралі, дзякуй, што карыстаецеся маёй убудовай!"
 
 #: options/panel6.php:21
 msgid "Vote and show your appreciation"
 msgstr "Прагаласуйце і пакажыце сваю ўдзячнасць"
 
 #: options/panel6.php:22
-msgid "Tell other people if Subscribe to Comments Reloaded works for you and how good it is. <a href=\"http://wordpress.org/extend/plugins/subscribe-to-comments-reloaded/\">Rate it</a> on its Plugin Directory page."
-msgstr "Калі вам падабаецца вам убудова <b>Subscribe to Comments Reloaded</b>, распавядзіце іншым людзям пра яго і пра тое, наколькі ён добры. <a href=\"http://wordpress.org/extend/plugins/subscribe-to-comments-reloaded/\">Ацэніце</a> яго ў частцы ўбудоў на сайце Wordpress."
+msgid "Tell other people if WP Comment Subscriptions works for you and how good it is. <a href=\"http://wordpress.org/extend/plugins/wp-comment-subscriptions/\">Rate it</a> on its Plugin Directory page."
+msgstr "Калі вам падабаецца вам убудова <b>WP Comment Subscriptions</b>, распавядзіце іншым людзям пра яго і пра тое, наколькі ён добры. <a href=\"http://wordpress.org/extend/plugins/wp-comment-subscriptions/\">Ацэніце</a> яго ў частцы ўбудоў на сайце Wordpress."
 
 #: options/panel6.php:24
 msgid "Sponsor's Corner"

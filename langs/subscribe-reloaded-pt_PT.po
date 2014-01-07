@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Subscribe to Comments Reloaded\n"
+"Project-Id-Version: WP Comment Subscriptions\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-25 16:02-0500\n"
 "PO-Revision-Date: 2011-07-25 16:02-0500\n"
@@ -18,101 +18,101 @@ msgstr ""
 "X-Textdomain-Support: yes\n"
 "X-Poedit-SearchPath-0: .\n"
 
-# @ subscribe-reloaded
-#: subscribe-to-comments-reloaded.php:41
-#: subscribe-to-comments-reloaded.php:248
+# @ wp-comment-subscriptions
+#: wp-comment-subscriptions.php:41
+#: wp-comment-subscriptions.php:248
 #, fuzzy
 msgid "Your subscription to this post needs to be confirmed. <a href='[manager_link]'>Manage your subscriptions</a>."
 msgstr "A sua subscrição para esta entrada deve ser confirmada. <a href='[manager_link]'>Gerir as suas subscrições</a> ."
 
-# @ subscribe-reloaded
-#: subscribe-to-comments-reloaded.php:46
-#: subscribe-to-comments-reloaded.php:247
+# @ wp-comment-subscriptions
+#: wp-comment-subscriptions.php:46
+#: wp-comment-subscriptions.php:247
 #, fuzzy
 msgid "You are subscribed to this post. <a href='[manager_link]'>Manage</a> your subscriptions."
 msgstr "Está inscrito para esta entrada. <a href='[manager_link]'>Gerir</a> suas subscrições."
 
-# @ subscribe-reloaded
-#: subscribe-to-comments-reloaded.php:53
-#: subscribe-to-comments-reloaded.php:249
+# @ wp-comment-subscriptions
+#: wp-comment-subscriptions.php:53
+#: wp-comment-subscriptions.php:249
 #, fuzzy
 msgid "You can <a href='[manager_link]'>manage the subscriptions</a> of this post."
 msgstr "Pode <a href='[manager_link]'>gerir as subscrições</a> desta entrada."
 
-# @ subscribe-reloaded
-#: subscribe-to-comments-reloaded.php:58
-#: subscribe-to-comments-reloaded.php:244
+# @ wp-comment-subscriptions
+#: wp-comment-subscriptions.php:58
+#: wp-comment-subscriptions.php:244
 msgid "Notify me of followup comments via e-mail. You can also <a href='[subscribe_link]'>subscribe</a> without commenting."
 msgstr "Notifique-me de novos comentários via Email. Também pode <a href='[subscribe_link]'>se inscrever</a> sem comentar."
 
-#: subscribe-to-comments-reloaded.php:67
+#: wp-comment-subscriptions.php:67
 #, fuzzy
 msgid "Don't subscribe"
 msgstr "Permitir subscrições do Administrador"
 
-#: subscribe-to-comments-reloaded.php:68
+#: wp-comment-subscriptions.php:68
 msgid "All"
 msgstr ""
 
-# @ subscribe-reloaded
-#: subscribe-to-comments-reloaded.php:69
+# @ wp-comment-subscriptions
+#: wp-comment-subscriptions.php:69
 #: templates/user.php:65
 #, fuzzy
 msgid "Replies to my comments"
 msgstr "Subscrever sem comentar"
 
-#: subscribe-to-comments-reloaded.php:70
+#: wp-comment-subscriptions.php:70
 msgid "Daily digest"
 msgstr ""
 
-# @ subscribe-reloaded
-#: subscribe-to-comments-reloaded.php:221
+# @ wp-comment-subscriptions
+#: wp-comment-subscriptions.php:221
 #: options/index.php:41
 msgid "Manage subscriptions"
 msgstr "Gerir Subscrições"
 
-# @ subscribe-reloaded
-#: subscribe-to-comments-reloaded.php:222
+# @ wp-comment-subscriptions
+#: wp-comment-subscriptions.php:222
 msgid "To manage your subscriptions, please enter your email address here below. We will send you a message containing the link to access your personal management page."
 msgstr "Para gerir as suas subscrições, digite o seu endereço de e-mail aqui em baixo. Nós enviaremos-lhe uma mensagem contendo o link para aceder à sua página de gestão pessoal."
 
-# @ subscribe-reloaded
-#: subscribe-to-comments-reloaded.php:223
+# @ wp-comment-subscriptions
+#: wp-comment-subscriptions.php:223
 msgid "Thank you for using our subscription service. Your request has been completed, and you should receive an email with the management link in a few minutes."
 msgstr "Obrigado por usar nosso serviço de Subscrição. Seu pedido foi concluído, deverá receber dentro de minutos um Email com o link de gestão."
 
-# @ subscribe-reloaded
-#: subscribe-to-comments-reloaded.php:224
+# @ wp-comment-subscriptions
+#: wp-comment-subscriptions.php:224
 msgid "You can follow the discussion on <strong>[post_title]</strong> without having to leave a comment. Cool, huh? Just enter your email address in the form here below and you're all set."
 msgstr "Pode acompanhar a discussão sobre <strong>[post_title]</strong> sem ter que deixar um comentário. Basta digitar seu endereço de Email no formulário abaixo."
 
-# @ subscribe-reloaded
-#: subscribe-to-comments-reloaded.php:225
+# @ wp-comment-subscriptions
+#: wp-comment-subscriptions.php:225
 msgid "Thank you for using our subscription service. Your request has been completed. You will receive a notification email every time a new comment to this article is approved and posted by the administrator."
 msgstr "Obrigado por usar nosso serviço de Subscrição. Seu pedido foi concluído. Receberá agora um Email de notificação sempre que um novo comentário a este artigo for aprovado e publicado pelo administrador."
 
-# @ subscribe-reloaded
-#: subscribe-to-comments-reloaded.php:226
+# @ wp-comment-subscriptions
+#: wp-comment-subscriptions.php:226
 msgid "Thank you for using our subscription service. In order to confirm your request, please check your email for the verification message and follow the instructions."
 msgstr "Obrigado por usar nosso serviço de Subscrição. Para confirmar o seu pedido, verifique o seu Email para a mensagem de confirmação e siga as instruções."
 
-# @ subscribe-reloaded
-#: subscribe-to-comments-reloaded.php:227
+# @ wp-comment-subscriptions
+#: wp-comment-subscriptions.php:227
 msgid "In order to cancel or suspend one or more notifications, select the corresponding checkbox(es) and click on the button at the end of the list."
 msgstr "A fim de cancelar ou suspender uma ou mais subscrições, selecione a opção correspondente (s) e clique no botão no final da lista."
 
-# @ subscribe-reloaded
-#: subscribe-to-comments-reloaded.php:228
+# @ wp-comment-subscriptions
+#: wp-comment-subscriptions.php:228
 msgid "In order to cancel or suspend one or more notifications, select the corresponding checkbox(es) and click on the button at the end of the list. You are currently subscribed to:"
 msgstr "A fim de cancelar ou suspender uma ou mais subscrições, selecione a opção correspondente (s) e clique no botão no final da lista. Você está inscrito em:"
 
-# @ subscribe-reloaded
-#: subscribe-to-comments-reloaded.php:242
+# @ wp-comment-subscriptions
+#: wp-comment-subscriptions.php:242
 msgid "There is a new comment to [post_title]"
 msgstr "Há um novo comentário para: [post_title]"
 
-# @ subscribe-reloaded
-#: subscribe-to-comments-reloaded.php:243
+# @ wp-comment-subscriptions
+#: wp-comment-subscriptions.php:243
 msgid ""
 "There is a new comment to [post_title].\n"
 "Comment Link: [comment_permalink]\n"
@@ -130,13 +130,13 @@ msgstr ""
 "Link Permanente: [post_permalink]\n"
 "Gerir as suas subscrições: [manager_link]"
 
-# @ subscribe-reloaded
-#: subscribe-to-comments-reloaded.php:250
+# @ wp-comment-subscriptions
+#: wp-comment-subscriptions.php:250
 msgid "Please confirm your subscription to [post_title]"
 msgstr "Por favor, confirme sua subscrição da página [post_title]"
 
-# @ subscribe-reloaded
-#: subscribe-to-comments-reloaded.php:251
+# @ wp-comment-subscriptions
+#: wp-comment-subscriptions.php:251
 msgid ""
 "You have requested to be notified every time a new comment is added to:\n"
 "[post_permalink]\n"
@@ -150,13 +150,13 @@ msgstr ""
 "Por favor, confirme seu pedido clicando neste link:\n"
 "[confirm_link]"
 
-# @ subscribe-reloaded
-#: subscribe-to-comments-reloaded.php:252
+# @ wp-comment-subscriptions
+#: wp-comment-subscriptions.php:252
 msgid "Manage your subscriptions on [blog_name]"
 msgstr "Gerir as suas subscrições no Site [blog_name]"
 
-# @ subscribe-reloaded
-#: subscribe-to-comments-reloaded.php:253
+# @ wp-comment-subscriptions
+#: wp-comment-subscriptions.php:253
 msgid ""
 "You have requested to manage your subscriptions to the articles on [blog_name]. Follow this link to access your personal page:\n"
 "[manager_link]"
@@ -164,13 +164,13 @@ msgstr ""
 "Pediu para gerir suas subscrições para os artigos no Site [blog_name]. Siga este link para aceder à sua página pessoal de subscrições:\n"
 "[manager_link]"
 
-# @ subscribe-reloaded
-#: subscribe-to-comments-reloaded.php:986
+# @ wp-comment-subscriptions
+#: wp-comment-subscriptions.php:986
 msgid "Subscribed"
 msgstr "Subscrito"
 
-# @ subscribe-reloaded
-#: subscribe-to-comments-reloaded.php:1000
+# @ wp-comment-subscriptions
+#: wp-comment-subscriptions.php:1000
 #: options/panel2.php:41
 #: options/panel2.php:48
 #: options/panel2.php:55
@@ -183,20 +183,20 @@ msgstr "Subscrito"
 msgid "Yes"
 msgstr "Sim"
 
-#: subscribe-to-comments-reloaded.php:1002
+#: wp-comment-subscriptions.php:1002
 msgid "Replies"
 msgstr ""
 
-#: subscribe-to-comments-reloaded.php:1004
+#: wp-comment-subscriptions.php:1004
 msgid "Digest"
 msgstr ""
 
-#: subscribe-to-comments-reloaded.php:1006
+#: wp-comment-subscriptions.php:1006
 msgid "Pending"
 msgstr ""
 
-# @ subscribe-reloaded
-#: subscribe-to-comments-reloaded.php:1007
+# @ wp-comment-subscriptions
+#: wp-comment-subscriptions.php:1007
 #: options/panel2.php:42
 #: options/panel2.php:49
 #: options/panel2.php:56
@@ -209,47 +209,47 @@ msgstr ""
 msgid "No"
 msgstr "Não"
 
-# @ subscribe-reloaded
-#: subscribe-to-comments-reloaded.php:1016
+# @ wp-comment-subscriptions
+#: wp-comment-subscriptions.php:1016
 msgid "Subscriptions"
 msgstr "Gerir Subscrições"
 
-#: subscribe-to-comments-reloaded.php:1039
-msgid "Need help on how to use Subscribe to Comments Reloaded? Visit the official"
-msgstr "Precisa de ajuda sobre como usar \"Subscribe to Comments Reloaded\"? Visite o oficial"
+#: wp-comment-subscriptions.php:1039
+msgid "Need help on how to use WP Comment Subscriptions? Visit the official"
+msgstr "Precisa de ajuda sobre como usar \"WP Comment Subscriptions\"? Visite o oficial"
 
-# @ subscribe-reloaded
-#: subscribe-to-comments-reloaded.php:1039
+# @ wp-comment-subscriptions
+#: wp-comment-subscriptions.php:1039
 msgid "support forum"
 msgstr "Fórum de Suporte"
 
-#: subscribe-to-comments-reloaded.php:1040
+#: wp-comment-subscriptions.php:1040
 msgid "Feeling generous?"
 msgstr "Sentindo-se generoso(a)?"
 
-#: subscribe-to-comments-reloaded.php:1040
+#: wp-comment-subscriptions.php:1040
 msgid "Donate a few bucks!"
 msgstr "Doe alguns trocados!"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/index.php:42
 #, fuzzy
 msgid "Comment Form"
 msgstr "Formulário de resposta"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/index.php:43
 #, fuzzy
 msgid "Management Page"
 msgstr "Página de gestão"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/index.php:44
 #, fuzzy
 msgid "Notifications"
 msgstr "Assunto da notificação"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/index.php:45
 #: options/panel2.php:35
 #: options/panel3.php:39
@@ -261,25 +261,25 @@ msgstr "Opções"
 msgid "You can help"
 msgstr ""
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1-business-logic.php:18
 #, fuzzy
 msgid "Subscription added."
 msgstr "Gerir Subscrições"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1-business-logic.php:30
 #, fuzzy
 msgid "Subscriptions updated."
 msgstr "Subscrições por dia"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1-business-logic.php:39
 #, fuzzy
 msgid "Subscription deleted."
 msgstr "Subscrição processada"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1-business-logic.php:54
 #: templates/author.php:22
 #: templates/user.php:22
@@ -287,7 +287,7 @@ msgstr "Subscrição processada"
 msgid "Subscriptions deleted:"
 msgstr "Inscrições para:"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1-business-logic.php:58
 #: templates/author.php:26
 #: templates/user.php:26
@@ -295,7 +295,7 @@ msgstr "Inscrições para:"
 msgid "Subscriptions suspended:"
 msgstr "Subscrição processada"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1-business-logic.php:62
 #: templates/author.php:30
 #: templates/user.php:30
@@ -303,7 +303,7 @@ msgstr "Subscrição processada"
 msgid "Subscriptions activated:"
 msgstr "Inscrições para:"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1-business-logic.php:66
 #: options/panel1-business-logic.php:70
 #: templates/author.php:34
@@ -321,13 +321,13 @@ msgstr "&laquo; Anterior"
 msgid "Next &raquo;"
 msgstr "Seguinte &raquo;"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1-edit-subscription.php:8
 #, fuzzy
 msgid "Update Subscription"
 msgstr "Atualizar subscrições"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1-edit-subscription.php:10
 #: options/panel1.php:19
 #: options/panel1.php:81
@@ -342,19 +342,19 @@ msgstr "Lembre-se: esta operação não pode ser anulada. Tem certeza de que des
 msgid "Post:"
 msgstr "Linhas:"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1-edit-subscription.php:13
 #: options/panel1.php:21
 msgid "From"
 msgstr "De"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1-edit-subscription.php:14
 #: options/panel1.php:22
 msgid "To"
 msgstr "Para"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1-edit-subscription.php:15
 #: options/panel1.php:26
 #: options/panel1.php:45
@@ -367,7 +367,7 @@ msgstr "Estado"
 msgid "Keep unchanged"
 msgstr ""
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1-edit-subscription.php:18
 #: options/panel1.php:29
 #: options/panel1.php:47
@@ -381,26 +381,26 @@ msgstr "Ação"
 msgid "Replies only"
 msgstr ""
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1-edit-subscription.php:20
 #: options/panel1.php:31
 #, fuzzy
 msgid "Suspended"
 msgstr "Suspender"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1-edit-subscription.php:21
 #: options/panel1.php:32
 msgid "Update"
 msgstr "Atualizar"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1.php:17
 #, fuzzy
 msgid "Mass Update Subscriptions"
 msgstr "Atualizar assinaturas"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1.php:23
 #: options/panel1.php:24
 #: options/panel1.php:25
@@ -408,7 +408,7 @@ msgstr "Atualizar assinaturas"
 msgid "optional"
 msgstr "Opções"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1.php:39
 #, fuzzy
 msgid "Add New Subscription"
@@ -419,7 +419,7 @@ msgstr "Nova subscrição para"
 msgid "Post ID"
 msgstr "Post (ID)"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1.php:44
 #: options/panel1.php:90
 #: templates/request-management-link.php:65
@@ -436,19 +436,19 @@ msgstr ""
 msgid "Add"
 msgstr ""
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1.php:59
 #, fuzzy
 msgid "Search subscriptions"
 msgstr "Gerir Subscrições"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1.php:61
 #, fuzzy, php-format
 msgid "You can either <a href=\"%s\">view all the subscriptions</a> or find those where the"
 msgstr "Pode <a href=\"%s\">listar todas as subscrições</a> ou encontrar pelo <b>e-mail </b>"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1.php:64
 #, fuzzy
 msgid "email"
@@ -459,23 +459,23 @@ msgstr "Email"
 msgid "post ID"
 msgstr "Post (ID)"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1.php:66
 #, fuzzy
 msgid "status"
 msgstr "Estado"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1.php:69
 msgid "equals"
 msgstr "for igual"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1.php:70
 msgid "contains"
 msgstr "contém"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1.php:71
 msgid "does not contain"
 msgstr "não contém"
@@ -492,7 +492,7 @@ msgstr ""
 msgid "results per page:"
 msgstr ""
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1.php:77
 msgid "Search"
 msgstr "Procurar"
@@ -510,7 +510,7 @@ msgstr "Inverter a ordem por Data/Hora"
 msgid "Post (ID)"
 msgstr "Post (ID)"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1.php:92
 #, fuzzy
 msgid "Search query:"
@@ -538,26 +538,26 @@ msgstr "Data e Hora"
 msgid "Edit"
 msgstr ""
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1.php:113
 #: templates/author.php:69
 #: templates/user.php:63
 msgid "Delete"
 msgstr "Remover"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1.php:121
 #: templates/author.php:68
 #: templates/user.php:62
 msgid "Action:"
 msgstr "Ação:"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1.php:122
 msgid "Delete forever"
 msgstr "Remover para sempre"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1.php:123
 #: templates/author.php:70
 #: templates/user.php:64
@@ -578,33 +578,33 @@ msgstr ""
 msgid "Activate"
 msgstr ""
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1.php:127
 #: templates/author.php:73
 #: templates/user.php:67
 msgid "Update subscriptions"
 msgstr "Atualizar assinaturas"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel1.php:131
 #, fuzzy
 msgid "Sorry, no subscriptions match your search criteria."
 msgstr "Desculpe, nenhuma subscrição foi encontrada para"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel2.php:11
 #: options/panel2.php:39
 #, fuzzy
 msgid "Enable default checkbox"
 msgstr "Ativar confirmação"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel2.php:12
 #: options/panel2.php:46
 msgid "Checked by default"
 msgstr "Marcado por padrão"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel2.php:13
 #: options/panel2.php:53
 #, fuzzy
@@ -621,29 +621,29 @@ msgstr "Personalizar estilo inline"
 msgid "Custom HTML"
 msgstr "Personalizar HTML"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel2.php:17
 msgid "Checkbox label"
 msgstr "Descrição do Checkbox"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel2.php:18
 #: options/panel2.php:81
 msgid "Subscribed label"
 msgstr "Descrição para os inscritos"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel2.php:19
 msgid "Awaiting label"
 msgstr "Descrição para Aguardando"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel2.php:20
 #: options/panel2.php:91
 msgid "Author label"
 msgstr "Descrição para o Autor"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel2.php:25
 #: options/panel3.php:26
 #: options/panel4.php:23
@@ -651,7 +651,7 @@ msgstr "Descrição para o Autor"
 msgid "Your settings have been successfully updated."
 msgstr "As suas configurações foram atualizadas"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel2.php:28
 #: options/panel3.php:29
 #: options/panel4.php:26
@@ -663,7 +663,7 @@ msgstr "Houve um erro ao atualizar os seguintes campos:"
 msgid "Disable this option if you want to move the subscription checkbox to a different place on your page."
 msgstr ""
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel2.php:50
 msgid "Decide if the checkbox should be checked by default or not."
 msgstr "Escolha se o checkbox deve ficar marcado por padrão ou não."
@@ -684,34 +684,34 @@ msgstr "Personalizar código HTML para ser usado ao exibir a caixa de seleção.
 msgid "Messages for your visitors"
 msgstr ""
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel2.php:76
 #, fuzzy
 msgid "Default label"
 msgstr "Descrição para o Autor"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel2.php:78
 msgid "Label associated to the checkbox. Allowed tag: [subscribe_link]"
 msgstr "Rótulo associado ao checkbox. Tags permitidas: [subscribe_link]"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel2.php:83
 msgid "Label shown to those who are already subscribed to a post. Allowed tag: [manager_link]"
 msgstr "Rótulo mostrado para aqueles que já estão inscritos em um post. Tags permitidas: [manager_link]"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel2.php:86
 #, fuzzy
 msgid "Pending label"
 msgstr "Descrição para Aguardando"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel2.php:88
 msgid "Label shown to those who are already subscribed, but haven't clicked on the confirmation link yet. Allowed tag: [manager_link]"
 msgstr "Rótulo mostrado a quem já está inscrito, mas não clicou no link de confirmação ainda. Tags permitidas: [manager_link]"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel2.php:93
 msgid "Label shown to authors (and administrators). Allowed tag: [manager_link]"
 msgstr "Rótulo aos autores (e administradores). Tags permitidas: [manager_link]"
@@ -724,20 +724,20 @@ msgstr "Rótulo aos autores (e administradores). Tags permitidas: [manager_link]
 msgid "Save Changes"
 msgstr "Guardar Alterações"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel3.php:10
 #: options/panel3.php:43
 #, fuzzy
 msgid "Virtual Management Page"
 msgstr "Página de gestão"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel3.php:11
 #: options/panel3.php:51
 msgid "Page title"
 msgstr "Título da página"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel3.php:12
 #: options/panel3.php:56
 #, fuzzy
@@ -749,43 +749,43 @@ msgstr "Página de gestão"
 msgid "Custom HEAD meta"
 msgstr ""
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel3.php:15
 #: options/panel3.php:74
 msgid "Request link"
 msgstr "Link do pedido"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel3.php:16
 #: options/panel3.php:84
 msgid "Request submitted"
 msgstr "Requisição enviada"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel3.php:17
 #: options/panel3.php:94
 msgid "Subscribe without commenting"
 msgstr "Subscrever sem comentar"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel3.php:18
 #: options/panel3.php:104
 msgid "Subscription processed"
 msgstr "Subscrição processada"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel3.php:19
 #: options/panel3.php:114
 msgid "Subscription processed (DCI)"
 msgstr "Subscrição processada (DCI)"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel3.php:20
 #: options/panel3.php:124
 msgid "Authors"
 msgstr "Autores"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel3.php:21
 #: options/panel3.php:134
 msgid "Users"
@@ -803,12 +803,12 @@ msgstr ""
 msgid "Disable the virtual management page if you need to create a <a href=\"http://lab.duechiacchiere.it/index.php?topic=71.0\">real page</a> to make your theme happy."
 msgstr ""
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel3.php:53
 msgid "Title of the page your visitors will use to manage their subscriptions."
 msgstr "Título da página onde seus subscritores vão gerenciar as inscrições deles."
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel3.php:58
 msgid "The permalink for your management page (something like <code>/manage-subscriptions</code> or <code>/?page_id=345</code>). This page <b>does not</b> actually exist in the system, but its link must follow your permalink structure."
 msgstr "O Link Permanente para a sua página de gestão (algo como <code>/manage-subscriptions</code> ou <code>/?page_id=345</code> ). Esta página realmente <b>não</b> existe no sistema, mas deve seguir as configurações do Link Permanente do Site."
@@ -821,7 +821,7 @@ msgstr "Aviso: parece que o valor que está a usar pode não ser compativél com
 msgid "Specify your custom HTML code to be added to the HEAD section of the page. Use <strong>single</strong> quotes for values."
 msgstr ""
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel3.php:70
 #: options/panel4.php:50
 #, fuzzy
@@ -880,142 +880,142 @@ msgstr "Link"
 msgid "Image"
 msgstr "Imagem"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel3.php:81
 msgid "Text shown to those who request to manage their subscriptions."
 msgstr "O texto mostrado para aqueles que o solicitarem gerir as suas subscrições."
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel3.php:91
 msgid "Thank you note shown after the request here above has been processed. Allowed tags: [post_title], [post_permalink]"
 msgstr "Nota de agradecimento exibida depois que a requisição foi processada. Tags permitidas: [post_title], [post_permalink]"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel3.php:101
 msgid "Text shown to those who want to subscribe without commenting. Allowed tags: [post_title], [post_permalink]"
 msgstr "O texto mostrado para aqueles que querem subscrever sem comentar. Tags permitidas: [post_title]"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel3.php:111
 msgid "Thank you note shown after the subscription request has been processed (double check-in disabled). Allowed tags: [post_title], [post_permalink]"
 msgstr "Mensagem de agradecimento exibida após a requisição de subscrição ter sido processada (confirmação desabilitada). Tags permitidas: [post_title], [post_permalink]"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel3.php:121
 msgid "Thank you note shown after the subscription request has been processed (double check-in enabled). Allowed tags: [post_title], [post_permalink]"
 msgstr "Mensagem de agradecimento exibida após a requisição de subscrição ter sido processada (confirmação habilitada). Tags permitidas: [post_title], [post_permalink]"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel3.php:131
 msgid "Introductory text for the authors' management page."
 msgstr "Texto introdutório para a página de gestão dos autores."
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel3.php:141
 msgid "Introductory text for the users' management page."
 msgstr "Texto introdutório para a página de gestão dos utilizadores."
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel4.php:11
 #: options/panel4.php:38
 msgid "Sender name"
 msgstr "Nome do remetente"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel4.php:12
 #: options/panel4.php:43
 msgid "Sender email address"
 msgstr "Email do remetente"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel4.php:13
 #: options/panel4.php:54
 msgid "Notification subject"
 msgstr "Assunto da notificação"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel4.php:14
 #: options/panel4.php:59
 msgid "Notification message"
 msgstr "Mensagem de notificação"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel4.php:15
 #: options/panel4.php:70
 msgid "Double check subject"
 msgstr "Assunto de reverificação"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel4.php:16
 #: options/panel4.php:75
 msgid "Double check message"
 msgstr "Mensagem de reverificação"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel4.php:17
 #: options/panel4.php:86
 msgid "Management subject"
 msgstr "Gestão do Assunto"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel4.php:18
 #: options/panel4.php:91
 msgid "Management message"
 msgstr "Gestão das Mensagens"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel4.php:40
 msgid "Name to use for the \"from\" field when sending a new notification to the user."
 msgstr "Nome a ser usado para o campo \"De\" ao enviar uma nova notificação ao utilizador."
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel4.php:45
 msgid "Email address to use for the \"from\" field when sending a new notification to the user."
 msgstr "Endereço de email para usar no campo \"De\" ao enviar uma nova notificação ao utilizador."
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel4.php:56
 msgid "Subject of the notification email. Allowed tag: [post_title]"
 msgstr "Assunto do e-mail de notificação. Tags permitidas: [post_title]"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel4.php:67
 msgid "Content of the notification email. Allowed tags: [post_title], [comment_permalink], [comment_author], [comment_content], [post_permalink], [manager_link]"
 msgstr "Conteúdo do Email de notificação. Tags permitidas: [post_title], [comment_permalink], [comment_author], [comment_content], [post_permalink], [manager_link]"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel4.php:72
 msgid "Subject of the confirmation email. Allowed tag: [post_title]"
 msgstr "Assunto do Email de confirmação. Tags permitidas: [post_title]"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel4.php:83
 msgid "Content of the confirmation email. Allowed tags: [post_permalink], [confirm_link], [post_title], [manager_link]"
 msgstr "Conteúdo do Email de confirmação. Tags permitidas: [post_permalink], [confirm_link], [post_title], [manager_link]"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel4.php:88
 msgid "Subject of the mail sent to those who request to access their management page. Allowed tag: [blog_name]"
 msgstr "Assunto do Email enviado a quem pedir para ter acesso à página de gestão de subscrições. Tags permitidas: [blog_name]"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel4.php:99
 msgid "Content of the management email. Allowed tags: [blog_name], [manager_link]"
 msgstr "Conteúdo do Email de gestão. Tags permitidas: [blog_name], [manager_link]"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel5.php:11
 #: options/panel5.php:35
 msgid "Autopurge requests"
 msgstr "Pedidos de auto remoção"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel5.php:12
 #: options/panel5.php:40
 msgid "Enable double check"
 msgstr "Ativar confirmação"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel5.php:13
 msgid "Notify authors"
 msgstr "Notificar autores"
@@ -1025,12 +1025,12 @@ msgstr "Notificar autores"
 msgid "Enable HTML emails"
 msgstr "Ativar e-mails com HTML"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel5.php:15
 msgid "Send trackbacks"
 msgstr "Enviar trackbacks"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel5.php:16
 #: options/panel5.php:47
 msgid "Notify admin"
@@ -1045,17 +1045,17 @@ msgstr "Permitir subscrições do Administrador"
 msgid "days"
 msgstr "dias"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel5.php:37
 msgid "Delete pending subscriptions (not confirmed) after X days. Zero disables this feature."
 msgstr "Excluir assinaturas pendentes (não confirmada) após X dias. Zero desativa este recurso."
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel5.php:44
 msgid "Send a notification email to confirm the subscription (to avoid addresses misuse)."
 msgstr "Enviar um e-mail de notificação para confirmar a inscrição (para evitar abusos de endereços)."
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel5.php:51
 msgid "Notify the administrator when a new comment is posted."
 msgstr "Notificar o administrador quando um novo comentário for publicado."
@@ -1064,28 +1064,28 @@ msgstr "Notificar o administrador quando um novo comentário for publicado."
 msgid "If enabled, will send email messages with content-type = text/html instead of text/plain"
 msgstr "Se ativado envia mensagens de e-mail com o content-type = text/html, em vez de text/plain"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel5.php:61
 #, fuzzy
 msgid "Process trackbacks"
 msgstr "Enviar trackbacks"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel5.php:65
 msgid "Notify users when a new trackback or pingback is added to the discussion."
 msgstr "Notifique os utilizadores quando um trackback ou pingback novo é acrescentado à discussão."
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel5.php:68
 msgid "Track all subscriptions"
 msgstr "Seguir todas as assinaturas"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel5.php:72
 msgid "Notify the administrator when users subscribe without commenting."
 msgstr "Notificar o administrador quando os utilizadores se inscreverem sem comentar."
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel5.php:79
 msgid "Let the administrator subscribe to comments when logged in."
 msgstr "Deixe o administrador inscrever-se em comentários, quando estiver iniciado sessão."
@@ -1094,30 +1094,30 @@ msgstr "Deixe o administrador inscrever-se em comentários, quando estiver inici
 msgid "Support the author"
 msgstr "Suporte do autor"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel6.php:16
-msgid "How valuable is the feature offered by this plugin to your visitors? Subscribe to Comments Reloaded is and will always be free, but consider supporting the author if this plugin made your web site better, especially if you are making money out of it. Any donation received will be reinvested in the development of Subscribe to Comments Reloaded, and to buy some food for my hungry family."
-msgstr "Quão valioso é o recurso oferecido por este plugin para seus visitantes? \"Subscribe to Comments Reloaded\" é e sempre será gratuito, mas considere apoiar o autor, se este plugin tornou o seu site melhor, especialmente se você está ganhando dinheiro com isso. Qualquer donativo recebido será reinvestido no desenvolvimento do plugin e para comprar comida para minha família com fome."
+msgid "How valuable is the feature offered by this plugin to your visitors? WP Comment Subscriptions is and will always be free, but consider supporting the author if this plugin made your web site better, especially if you are making money out of it. Any donation received will be reinvested in the development of WP Comment Subscriptions, and to buy some food for my hungry family."
+msgstr "Quão valioso é o recurso oferecido por este plugin para seus visitantes? \"WP Comment Subscriptions\" é e sempre será gratuito, mas considere apoiar o autor, se este plugin tornou o seu site melhor, especialmente se você está ganhando dinheiro com isso. Qualquer donativo recebido será reinvestido no desenvolvimento do plugin e para comprar comida para minha família com fome."
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel6.php:18
 msgid "Don't want to donate? You can still help"
 msgstr "Não quer doar? Você ainda pode ajudar"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel6.php:19
-msgid "If you don't want to donate money, please consider blogging about my plugin with a link to the plugin's page. Please let your readers know what makes your blog better. You can also contribute donating your time: do not hesitate to send me bug reports, your localization files, ideas on how to improve Subscribe to Comments Reloaded and so on. Whatever you do, thanks for using my plugin!"
+msgid "If you don't want to donate money, please consider blogging about my plugin with a link to the plugin's page. Please let your readers know what makes your blog better. You can also contribute donating your time: do not hesitate to send me bug reports, your localization files, ideas on how to improve WP Comment Subscriptions and so on. Whatever you do, thanks for using my plugin!"
 msgstr "Se não quiser doar dinheiro, por favor, considere falar sobre o meu plugin com um link para o plugin da página. Por favor, deixe que os seus leitores saibam o que faz um blog melhor. Você também pode contribuir doando seu tempo: não hesite em me enviar relatórios de bugs, seus arquivos de tradução, as idéias sobre como melhora-lo e assim por adiante. Faça o que fizer, obrigado por usar o meu plugin!"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel6.php:21
 msgid "Vote and show your appreciation"
 msgstr "Vote e mostre o seu apreço"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: options/panel6.php:22
-msgid "Tell other people if Subscribe to Comments Reloaded works for you and how good it is. <a href=\"http://wordpress.org/extend/plugins/subscribe-to-comments-reloaded/\">Rate it</a> on its Plugin Directory page."
-msgstr "Se \"Subscribe to Comments Reloaded\" funciona bem consigo, informe outras pessoas de como é bom. <a href=\\\"http://wordpress.org/extend/plugins/subscribe-to-comments-reloaded/\\\">Classifique-o</a> na sua página wm \\\"Plugin Directory\\\"."
+msgid "Tell other people if WP Comment Subscriptions works for you and how good it is. <a href=\"http://wordpress.org/extend/plugins/wp-comment-subscriptions/\">Rate it</a> on its Plugin Directory page."
+msgstr "Se \"WP Comment Subscriptions\" funciona bem consigo, informe outras pessoas de como é bom. <a href=\\\"http://wordpress.org/extend/plugins/wp-comment-subscriptions/\\\">Classifique-o</a> na sua página wm \\\"Plugin Directory\\\"."
 
 #: options/panel6.php:24
 msgid "Sponsor's Corner"
@@ -1127,18 +1127,18 @@ msgstr ""
 msgid "If you want to sponsor this plugin, don't hesitate to <a href='http://www.duechiacchiere.it/contatto'>contact me</a>."
 msgstr "Se pretende apoiar este plugin, não hesite <a href='http://www.duechiacchiere.it/contatto'>contacte-me</a>."
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: templates/author.php:55
 msgid "Title"
 msgstr "Título"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: templates/author.php:66
 #: templates/user.php:60
 msgid "Select all"
 msgstr "Selecionar tudo"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: templates/author.php:67
 #: templates/user.php:61
 msgid "Invert selection"
@@ -1153,19 +1153,19 @@ msgstr ""
 msgid "No subscriptions match your search criteria."
 msgstr ""
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: templates/request-management-link.php:68
 #: templates/subscribe.php:89
 msgid "Send"
 msgstr "Enviar"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: templates/subscribe.php:42
 #: templates/subscribe.php:43
 msgid "New subscription to"
 msgstr "Nova subscrição para"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #: templates/subscribe.php:43
 msgid "User:"
 msgstr "Utilizador:"
@@ -1173,19 +1173,19 @@ msgstr "Utilizador:"
 #~ msgid "Awaiting confirmation"
 #~ msgstr "Aguardando a confirmação"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #~ msgid "Stats"
 #~ msgstr "Estatísticas"
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #~ msgid "Mail Messages"
 #~ msgstr "Mensagens Email"
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #~ msgid "Other Messages"
 #~ msgstr "Outras mensagens"
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #~ msgid "Support"
 #~ msgstr "Suporte"
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #~ msgid "The status has been successfully updated. Rows affected:"
 #~ msgstr "O estado foi atualizado com sucesso. Linhas afetadas:"
 #~ msgid ""
@@ -1198,43 +1198,43 @@ msgstr "Utilizador:"
 #~ msgstr "PID"
 #~ msgid "Change status"
 #~ msgstr "Alterar estado"
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #~ msgid ""
 #~ "Change the status of an email address or permanently delete all its "
 #~ "subscriptions."
 #~ msgstr ""
 #~ "Alterar o estado de um endereço de email ou excluir permanentemente todas "
 #~ "as suas subscrições."
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #~ msgid "Resume"
 #~ msgstr "Confirmar"
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #~ msgid "Update email address"
 #~ msgstr "Atualização do endereço de Email"
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #~ msgid ""
 #~ "You can \"mass update\" all the occurrences of a given email address "
 #~ "(exact matches only)."
 #~ msgstr ""
 #~ "Você pode atualizar &quot;em massa&quot; todas as ocorrências de um "
 #~ "endereço de Email indicado na base de dados com um novo."
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #~ msgid "Search email address"
 #~ msgstr "Procurar endereço de Email"
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #~ msgid "Legend: Y: subscribed, N: suspended, C: awaiting confirmation"
 #~ msgstr "Legenda: Y: Comfirmado, N: Suspenso, C: Aguardando Confirmação"
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #~ msgid "StCR table has been successfully optimized."
 #~ msgstr "Tabela STCR foi otimizada com sucesso."
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #~ msgid "Subscriptions for"
 #~ msgstr "Subscrições para:"
 #~ msgid "Filter by date"
 #~ msgstr "Filtrar por Data"
 #~ msgid "Month"
 #~ msgstr "Mês"
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #~ msgid "Year"
 #~ msgstr "Ano"
 #~ msgid "No data to display"
@@ -1261,7 +1261,7 @@ msgstr "Utilizador:"
 #~ msgstr "Os utilizadores mais ativos"
 #~ msgid "Popular posts"
 #~ msgstr "Posts Populares"
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #~ msgid "Management Page ID"
 #~ msgstr "ID da Página de Gerenciamento"
 #~ msgid "Custom CSS Class"
@@ -1274,26 +1274,26 @@ msgstr "Utilizador:"
 #~ "quiser personalizar seu estilo."
 #~ msgid "Official Sponsors"
 #~ msgstr "Patrocinadores Oficiais"
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #~ msgid "Subscriptions have been successfully updated."
 #~ msgstr "As subscrições foram atualizadas com sucesso."
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #~ msgid "Sorry, no subscriptions found."
 #~ msgstr "Desculpe, nenhuma subscrição foi encontrada."
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #~ msgid "All the subscriptions have been successfully updated."
 #~ msgstr "As subscrições foram atualizadas com sucesso."
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #~ msgid "Remove or suspend email address"
 #~ msgstr "Remover ou suspender endereço de email"
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #, fuzzy
 #~ msgid ""
 #~ "Text to show next to the checkbox added to the comment form. Allowed tag: "
 #~ "[subscribe_link]"
 #~ msgstr "Rótulo associado ao checkbox. Tags permitidas: [subscribe_link]"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #, fuzzy
 #~ msgid ""
 #~ "Send a notification email to confirm the subscription (to avoid addresses "
@@ -1302,7 +1302,7 @@ msgstr "Utilizador:"
 #~ "Enviar um e-mail de notificação para confirmar a inscrição (para evitar "
 #~ "abusos de endereços)."
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #, fuzzy
 #~ msgid ""
 #~ "Text to show to those users who are already subscribed. Allowed tag: "
@@ -1311,7 +1311,7 @@ msgstr "Utilizador:"
 #~ "Rótulo mostrado para aqueles que já estão inscritos em um post. Tags "
 #~ "permitidas: [manager_link]"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #, fuzzy
 #~ msgid ""
 #~ "Text to show to those users who are already subscribed, but haven't "
@@ -1320,7 +1320,7 @@ msgstr "Utilizador:"
 #~ "Rótulo mostrado a quem já está inscrito, mas não clicou no link de "
 #~ "confirmação ainda. Tags permitidas: [manager_link]"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #, fuzzy
 #~ msgid ""
 #~ "Text to show to the author, to manage subscriptions to a given post. "
@@ -1329,7 +1329,7 @@ msgstr "Utilizador:"
 #~ "Rótulo mostrado para aqueles que já estão inscritos em um post. Tags "
 #~ "permitidas: [manager_link]"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #, fuzzy
 #~ msgid ""
 #~ "You are the author of this entry. <a href='[manager_link]'>Manage</a> its "
@@ -1338,7 +1338,7 @@ msgstr "Utilizador:"
 #~ "Você está inscrito para esta entrada. <a href='[manager_link]'>Gerencie</"
 #~ "a> suas inscrições."
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #, fuzzy
 #~ msgid ""
 #~ "Subscriptions have been successfully updated. In order to cancel or "
@@ -1348,7 +1348,7 @@ msgstr "Utilizador:"
 #~ "A fim de cancelar ou suspender uma ou mais notificações, selecione a "
 #~ "opção correspondente (s) e clique no botão no final da lista."
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #, fuzzy
 #~ msgid ""
 #~ "You can manage the subscriptions to your articles on this page. In order "
@@ -1358,12 +1358,12 @@ msgstr "Utilizador:"
 #~ "A fim de cancelar ou suspender uma ou mais notificações, selecione a "
 #~ "opção correspondente (s) e clique no botão no final da lista."
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #, fuzzy
 #~ msgid "Search post ID"
 #~ msgstr "Procurar"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #, fuzzy
 #~ msgid ""
 #~ "Thank you for using our subscription service. Your request has been "
@@ -1374,7 +1374,7 @@ msgstr "Utilizador:"
 #~ "Obrigado por usar nosso serviço de assinatura. Seu pedido foi concluído, "
 #~ "e você deverá receber um email com o link de gestão, em poucos minutos."
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #, fuzzy
 #~ msgid ""
 #~ "Thank you for using our subscription service. In order to confirm your "
@@ -1386,7 +1386,7 @@ msgstr "Utilizador:"
 #~ "pedido, verifique seu e-mail para a mensagem de confirmação e siga as "
 #~ "instruções."
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #, fuzzy
 #~ msgid ""
 #~ "Thank you for using our subscription service. Your request has been "
@@ -1398,7 +1398,7 @@ msgstr "Utilizador:"
 #~ "Você receberá um e-mail de notificação toda vez que um novo comentário a "
 #~ "este artigo for aprovado e publicado pelo administrador."
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #, fuzzy
 #~ msgid ""
 #~ "You can follow the discussion on <strong>%s</strong> without having to "
@@ -1409,7 +1409,7 @@ msgstr "Utilizador:"
 #~ "ter que deixar um comentário. Legal, não? Basta digitar seu endereço de e-"
 #~ "mail no formulário abaixo."
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #, fuzzy
 #~ msgid ""
 #~ "Your subscriptions have been successfully updated. In order to cancel or "
@@ -1421,7 +1421,7 @@ msgstr "Utilizador:"
 #~ "opção correspondente (s) e clique no botão no final da lista. Você está "
 #~ "inscrito em:"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #, fuzzy
 #~ msgid ""
 #~ "You can manage your subscriptions to the article of this blog on this "
@@ -1433,7 +1433,7 @@ msgstr "Utilizador:"
 #~ "opção correspondente (s) e clique no botão no final da lista. Você está "
 #~ "inscrito em:"
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #, fuzzy
 #~ msgid ""
 #~ "Change the status or permanently delete all the subscriptions for a given "
@@ -1442,13 +1442,13 @@ msgstr "Utilizador:"
 #~ "Alterar o status de um endereço de e-mail ou excluir permanentemente "
 #~ "todas as suas assinaturas."
 
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #~ msgid ""
 #~ "Notify authors when a new comment is posted to one of their articles."
 #~ msgstr ""
 #~ "Notificar autores quando um novo comentário for postado em um de seus "
 #~ "artigos."
-# @ subscribe-reloaded
+# @ wp-comment-subscriptions
 #, fuzzy
 #~ msgid ""
 #~ "The permalink for your management page (<code>/manage-subscriptions</"

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Subscribe to Comments Reloaded\n"
+"Project-Id-Version: WP Comment Subscriptions\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-25 16:02-0500\n"
 "PO-Revision-Date: 2011-07-26 03:12+0200\n"
@@ -15,81 +15,81 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: subscribe-to-comments-reloaded.php:41
-#: subscribe-to-comments-reloaded.php:248
+#: wp-comment-subscriptions.php:41
+#: wp-comment-subscriptions.php:248
 msgid "Your subscription to this post needs to be confirmed. <a href='[manager_link]'>Manage your subscriptions</a>."
 msgstr "Bu yazıya olan aboneliğinizin doğrulanması gerekiyor. Aboneliklerinizi incelemek için <a href='[manager_link]'>tıklayın</a>."
 
-#: subscribe-to-comments-reloaded.php:46
-#: subscribe-to-comments-reloaded.php:247
+#: wp-comment-subscriptions.php:46
+#: wp-comment-subscriptions.php:247
 msgid "You are subscribed to this post. <a href='[manager_link]'>Manage</a> your subscriptions."
 msgstr "Bu yazıya abone oldunuz. Aboneliklerinizi incelemek için <a href='[manager_link]'>tıklayınız</a>."
 
-#: subscribe-to-comments-reloaded.php:53
-#: subscribe-to-comments-reloaded.php:249
+#: wp-comment-subscriptions.php:53
+#: wp-comment-subscriptions.php:249
 msgid "You can <a href='[manager_link]'>manage the subscriptions</a> of this post."
 msgstr "Bu yazıya olan aboneliklerinizi <a href='[manager_link]'>buradan</a> inceleyebilirsiniz."
 
-#: subscribe-to-comments-reloaded.php:58
-#: subscribe-to-comments-reloaded.php:244
+#: wp-comment-subscriptions.php:58
+#: wp-comment-subscriptions.php:244
 msgid "Notify me of followup comments via e-mail. You can also <a href='[subscribe_link]'>subscribe</a> without commenting."
 msgstr "Yeni yorumları e-posta aracılığıyla bana bildir. Ayrıca yorum yapmadan da <a href='[subscribe_link]'>abone</a> olabilirsiniz."
 
-#: subscribe-to-comments-reloaded.php:67
+#: wp-comment-subscriptions.php:67
 msgid "Don't subscribe"
 msgstr "Abone olma"
 
-#: subscribe-to-comments-reloaded.php:68
+#: wp-comment-subscriptions.php:68
 msgid "All"
 msgstr "Tümü"
 
-#: subscribe-to-comments-reloaded.php:69
+#: wp-comment-subscriptions.php:69
 #: templates/user.php:65
 msgid "Replies to my comments"
 msgstr "Yorumlarıma gönderilen yanıtlar"
 
-#: subscribe-to-comments-reloaded.php:70
+#: wp-comment-subscriptions.php:70
 msgid "Daily digest"
 msgstr "Günlük özet"
 
-#: subscribe-to-comments-reloaded.php:221
+#: wp-comment-subscriptions.php:221
 #: options/index.php:41
 msgid "Manage subscriptions"
 msgstr "Abonelikler"
 
-#: subscribe-to-comments-reloaded.php:222
+#: wp-comment-subscriptions.php:222
 msgid "To manage your subscriptions, please enter your email address here below. We will send you a message containing the link to access your personal management page."
 msgstr "Aboneliklerinizi incelemek için aşağıya e-posta adresinizi girin. Biz de size aboneliklerinizi listeyebileceğiniz bir link gönderelim."
 
-#: subscribe-to-comments-reloaded.php:223
+#: wp-comment-subscriptions.php:223
 msgid "Thank you for using our subscription service. Your request has been completed, and you should receive an email with the management link in a few minutes."
 msgstr "Abonelik servisini kullandığınız için teşekkür ederim. İsteğiniz tamamlandı ve aboneliğinizi yönetebileceğiniz bir link bir kaç dakika içerisinde e-posta adresinize gelmek üzere yola çıktı :) . "
 
-#: subscribe-to-comments-reloaded.php:224
+#: wp-comment-subscriptions.php:224
 msgid "You can follow the discussion on <strong>[post_title]</strong> without having to leave a comment. Cool, huh? Just enter your email address in the form here below and you're all set."
 msgstr "<strong>[post_title]</strong> yazısındaki tartışmaları yorum bırakmadan da takip edebilirsiniz. Havalı değil mi? Aşağıdaki kutuya e-posta adresinizi girmeniz yeterli."
 
-#: subscribe-to-comments-reloaded.php:225
+#: wp-comment-subscriptions.php:225
 msgid "Thank you for using our subscription service. Your request has been completed. You will receive a notification email every time a new comment to this article is approved and posted by the administrator."
 msgstr "Abonelik servisini kullandığınız için teşekkür ederim. İsteğiniz tamamlandı. Bu yazıya yapılan, yöneticilerin onaylayıp yayınladığı her yorum için e-posta alıcaksınız."
 
-#: subscribe-to-comments-reloaded.php:226
+#: wp-comment-subscriptions.php:226
 msgid "Thank you for using our subscription service. In order to confirm your request, please check your email for the verification message and follow the instructions."
 msgstr "Abonelik servsini kullandığınız için teşekkür ederim. İsteğinizi tamamlamak için lütfen e-posta adresinize gelen doğrulama mesajına bakın ve talimatları izleyin."
 
-#: subscribe-to-comments-reloaded.php:227
+#: wp-comment-subscriptions.php:227
 msgid "In order to cancel or suspend one or more notifications, select the corresponding checkbox(es) and click on the button at the end of the list."
 msgstr "Bir ya da daha fazla aboneliğinizi iptal etmek ya da dondurmak için ilgili kutucukları düzenleyin ve listenin sonundaki düğmeye basın."
 
-#: subscribe-to-comments-reloaded.php:228
+#: wp-comment-subscriptions.php:228
 msgid "In order to cancel or suspend one or more notifications, select the corresponding checkbox(es) and click on the button at the end of the list. You are currently subscribed to:"
 msgstr "Bir ya da daha fazla aboneliğinizi iptal etmek ya da dondurmak için ilgili kutucukları düzenleyin ve listenin sonundaki düğmeye basın. Şu an ki abonelikleriniz:"
 
-#: subscribe-to-comments-reloaded.php:242
+#: wp-comment-subscriptions.php:242
 msgid "There is a new comment to [post_title]"
 msgstr "[post_title] yazısı için yeni yorum yapıldı."
 
-#: subscribe-to-comments-reloaded.php:243
+#: wp-comment-subscriptions.php:243
 msgid ""
 "There is a new comment to [post_title].\n"
 "Comment Link: [comment_permalink]\n"
@@ -100,11 +100,11 @@ msgid ""
 "Manage your subscriptions: [manager_link]"
 msgstr "[post_title] yazısına yeni yorum gönderildi.Yorum Linki: [comment_permalink]Yazar: [comment_author]Yorum:[comment_content]Kalıcı Bağlantı: [post_permalink]Aboneliklerinizi İnceleme: [manager_link]"
 
-#: subscribe-to-comments-reloaded.php:250
+#: wp-comment-subscriptions.php:250
 msgid "Please confirm your subscription to [post_title]"
 msgstr "Lütfen [post_title] yazısı için başvurduğunuz aboneliğinizi doğrulayın."
 
-#: subscribe-to-comments-reloaded.php:251
+#: wp-comment-subscriptions.php:251
 msgid ""
 "You have requested to be notified every time a new comment is added to:\n"
 "[post_permalink]\n"
@@ -113,21 +113,21 @@ msgid ""
 "[confirm_link]"
 msgstr "Aşağıdaki linke her yorum yapıldığında bilgilendirilmeyi istediniz:[post_permalink]Aşağıdaki linke tıklayarak isteğinizi doğrulayın.[confirm_link]"
 
-#: subscribe-to-comments-reloaded.php:252
+#: wp-comment-subscriptions.php:252
 msgid "Manage your subscriptions on [blog_name]"
 msgstr "[blog_name] üzerindeki aboneliklerinizi inceleyin"
 
-#: subscribe-to-comments-reloaded.php:253
+#: wp-comment-subscriptions.php:253
 msgid ""
 "You have requested to manage your subscriptions to the articles on [blog_name]. Follow this link to access your personal page:\n"
 "[manager_link]"
 msgstr "[blog_name] üzerindeki aboneliklerinizi incelemek istediniz. Kişisel sayfanıza ulaşmak için aşağıdaki linke tıklayın: [manager_link]"
 
-#: subscribe-to-comments-reloaded.php:986
+#: wp-comment-subscriptions.php:986
 msgid "Subscribed"
 msgstr "Abone olundu"
 
-#: subscribe-to-comments-reloaded.php:1000
+#: wp-comment-subscriptions.php:1000
 #: options/panel2.php:41
 #: options/panel2.php:48
 #: options/panel2.php:55
@@ -140,19 +140,19 @@ msgstr "Abone olundu"
 msgid "Yes"
 msgstr "Evet"
 
-#: subscribe-to-comments-reloaded.php:1002
+#: wp-comment-subscriptions.php:1002
 msgid "Replies"
 msgstr "Yanıtlar"
 
-#: subscribe-to-comments-reloaded.php:1004
+#: wp-comment-subscriptions.php:1004
 msgid "Digest"
 msgstr "Özet"
 
-#: subscribe-to-comments-reloaded.php:1006
+#: wp-comment-subscriptions.php:1006
 msgid "Pending"
 msgstr "Askıda"
 
-#: subscribe-to-comments-reloaded.php:1007
+#: wp-comment-subscriptions.php:1007
 #: options/panel2.php:42
 #: options/panel2.php:49
 #: options/panel2.php:56
@@ -165,23 +165,23 @@ msgstr "Askıda"
 msgid "No"
 msgstr "Hayır"
 
-#: subscribe-to-comments-reloaded.php:1016
+#: wp-comment-subscriptions.php:1016
 msgid "Subscriptions"
 msgstr "Abonelikler"
 
-#: subscribe-to-comments-reloaded.php:1039
-msgid "Need help on how to use Subscribe to Comments Reloaded? Visit the official"
-msgstr "Subscribe to Comments Reloaded 'ı nasıl kullanacağınızı bilmiyor musunuz? Şurayı ziyaret edin"
+#: wp-comment-subscriptions.php:1039
+msgid "Need help on how to use WP Comment Subscriptions? Visit the official"
+msgstr "WP Comment Subscriptions 'ı nasıl kullanacağınızı bilmiyor musunuz? Şurayı ziyaret edin"
 
-#: subscribe-to-comments-reloaded.php:1039
+#: wp-comment-subscriptions.php:1039
 msgid "support forum"
 msgstr "destek forumları"
 
-#: subscribe-to-comments-reloaded.php:1040
+#: wp-comment-subscriptions.php:1040
 msgid "Feeling generous?"
 msgstr "Cömert mi hissediyorsunuz?"
 
-#: subscribe-to-comments-reloaded.php:1040
+#: wp-comment-subscriptions.php:1040
 msgid "Donate a few bucks!"
 msgstr "Bir kaç dolar bağışlayın!"
 
@@ -913,24 +913,24 @@ msgid "Support the author"
 msgstr "Yazarı destekle"
 
 #: options/panel6.php:16
-msgid "How valuable is the feature offered by this plugin to your visitors? Subscribe to Comments Reloaded is and will always be free, but consider supporting the author if this plugin made your web site better, especially if you are making money out of it. Any donation received will be reinvested in the development of Subscribe to Comments Reloaded, and to buy some food for my hungry family."
-msgstr "Bu eklenti tarafından ziyaretçilerinize sunulan özellik ne kadar değerli sizce? Subscribe to Comments Reloaded ücretsizdir ve hep ücretsiz kalacaktır. Bu eklenti sitenizi daha iyi hale getirdiyse ve siteniz üzerinden para kazanıyorsanız eklenti yazarını desteklemeyi düşünmez misiniz? Yapılan her bağış Subscribe to Comments Reloaded'a yatırım olarak geri dönecek ve aç aileme yemek olacaktır."
+msgid "How valuable is the feature offered by this plugin to your visitors? WP Comment Subscriptions is and will always be free, but consider supporting the author if this plugin made your web site better, especially if you are making money out of it. Any donation received will be reinvested in the development of WP Comment Subscriptions, and to buy some food for my hungry family."
+msgstr "Bu eklenti tarafından ziyaretçilerinize sunulan özellik ne kadar değerli sizce? WP Comment Subscriptions ücretsizdir ve hep ücretsiz kalacaktır. Bu eklenti sitenizi daha iyi hale getirdiyse ve siteniz üzerinden para kazanıyorsanız eklenti yazarını desteklemeyi düşünmez misiniz? Yapılan her bağış WP Comment Subscriptions'a yatırım olarak geri dönecek ve aç aileme yemek olacaktır."
 
 #: options/panel6.php:18
 msgid "Don't want to donate? You can still help"
 msgstr "Para bağışlamak istemiyor musunuz? Yine de yardım edebilirsiniz"
 
 #: options/panel6.php:19
-msgid "If you don't want to donate money, please consider blogging about my plugin with a link to the plugin's page. Please let your readers know what makes your blog better. You can also contribute donating your time: do not hesitate to send me bug reports, your localization files, ideas on how to improve Subscribe to Comments Reloaded and so on. Whatever you do, thanks for using my plugin!"
-msgstr "Eğer para bağışlamak istemiyorsanız, eklentime link veren bir blog girmeyi düşünebilirsiniz. Lütfen okuyucularınıza blogunuzu nasıl daha iyi yaptığınızı anlatın. Ya da biraz zamanınızı ayırarak hata raporlarını, lokalizasyon dosyalarınızı, Subscribe to Comments Reloaded'i nasıl geliştirebileceğimiz hakkındaki fikirlerinizi gönderebilirsiniz. Bu arada, eklentimi kullandığınız için teşekkür ederim!"
+msgid "If you don't want to donate money, please consider blogging about my plugin with a link to the plugin's page. Please let your readers know what makes your blog better. You can also contribute donating your time: do not hesitate to send me bug reports, your localization files, ideas on how to improve WP Comment Subscriptions and so on. Whatever you do, thanks for using my plugin!"
+msgstr "Eğer para bağışlamak istemiyorsanız, eklentime link veren bir blog girmeyi düşünebilirsiniz. Lütfen okuyucularınıza blogunuzu nasıl daha iyi yaptığınızı anlatın. Ya da biraz zamanınızı ayırarak hata raporlarını, lokalizasyon dosyalarınızı, WP Comment Subscriptions'i nasıl geliştirebileceğimiz hakkındaki fikirlerinizi gönderebilirsiniz. Bu arada, eklentimi kullandığınız için teşekkür ederim!"
 
 #: options/panel6.php:21
 msgid "Vote and show your appreciation"
 msgstr "Oylayın ve bizi memnun edin :)"
 
 #: options/panel6.php:22
-msgid "Tell other people if Subscribe to Comments Reloaded works for you and how good it is. <a href=\"http://wordpress.org/extend/plugins/subscribe-to-comments-reloaded/\">Rate it</a> on its Plugin Directory page."
-msgstr "Subscribe to Comments Reloaded 'den memnunsanız arkadaşlarınıza da bahsedin. Ya da eklentiler sayfasında <a href=\"http://wordpress.org/extend/plugins/subscribe-to-comments-reloaded/\">puan verin</a>."
+msgid "Tell other people if WP Comment Subscriptions works for you and how good it is. <a href=\"http://wordpress.org/extend/plugins/wp-comment-subscriptions/\">Rate it</a> on its Plugin Directory page."
+msgstr "WP Comment Subscriptions 'den memnunsanız arkadaşlarınıza da bahsedin. Ya da eklentiler sayfasında <a href=\"http://wordpress.org/extend/plugins/wp-comment-subscriptions/\">puan verin</a>."
 
 #: options/panel6.php:24
 msgid "Sponsor's Corner"

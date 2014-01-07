@@ -5,10 +5,10 @@ if (!function_exists('add_action')){
 	exit;
 }
 
-global $wp_subscribe_reloaded;
+global $wp_comment_subscriptions;
 
-$wp_subscribe_reloaded->update_subscription_status($post_ID, $email, '-C');
-$message = html_entity_decode(stripslashes(get_option('subscribe_reloaded_subscription_confirmed')), ENT_COMPAT, 'UTF-8');
+$wp_comment_subscriptions->update_subscription_status($post_ID, $email, '-C');
+$message = html_entity_decode(stripslashes(get_option('wp_comment_subscriptions_subscription_confirmed')), ENT_COMPAT, 'UTF-8');
 if(function_exists('qtrans_useCurrentLanguageIfNotFoundUseDefaultLanguage'))
 	$message = qtrans_useCurrentLanguageIfNotFoundUseDefaultLanguage($message);
 return "<p>$message</p>";

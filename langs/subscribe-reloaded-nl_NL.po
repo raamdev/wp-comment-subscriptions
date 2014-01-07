@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Subscribe to Comments Reloaded\n"
+"Project-Id-Version: WP Comment Subscriptions\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-25 16:02-0500\n"
 "PO-Revision-Date: 2011-07-25 16:02-0500\n"
@@ -16,85 +16,85 @@ msgstr ""
 "X-Poedit-Country: NETHERLANDS\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: subscribe-to-comments-reloaded.php:41
-#: subscribe-to-comments-reloaded.php:248
+#: wp-comment-subscriptions.php:41
+#: wp-comment-subscriptions.php:248
 #, fuzzy
 msgid "Your subscription to this post needs to be confirmed. <a href='[manager_link]'>Manage your subscriptions</a>."
 msgstr "Je abonnement op dit bericht moet eerst worden bevestigd. <a href='[manager_link]'>Beheer je abonnementen</a>."
 
-#: subscribe-to-comments-reloaded.php:46
-#: subscribe-to-comments-reloaded.php:247
+#: wp-comment-subscriptions.php:46
+#: wp-comment-subscriptions.php:247
 #, fuzzy
 msgid "You are subscribed to this post. <a href='[manager_link]'>Manage</a> your subscriptions."
 msgstr "Je hebt een abonnement op dit bericht. Beheer je abonnementen <a href='[manager_link]'>op deze pagina</a>. "
 
-#: subscribe-to-comments-reloaded.php:53
-#: subscribe-to-comments-reloaded.php:249
+#: wp-comment-subscriptions.php:53
+#: wp-comment-subscriptions.php:249
 #, fuzzy
 msgid "You can <a href='[manager_link]'>manage the subscriptions</a> of this post."
 msgstr "Op <a href='[manager_link]'>deze pagina</a> kun je de abonnementen van dit bericht beheren."
 
-#: subscribe-to-comments-reloaded.php:58
-#: subscribe-to-comments-reloaded.php:244
+#: wp-comment-subscriptions.php:58
+#: wp-comment-subscriptions.php:244
 msgid "Notify me of followup comments via e-mail. You can also <a href='[subscribe_link]'>subscribe</a> without commenting."
 msgstr "Houd mij op de hoogte van nieuwe reacties. Of <a href='[subscribe_link]'>abonneer jezelf</a> op deze discussie zonder te reageren."
 
-#: subscribe-to-comments-reloaded.php:67
+#: wp-comment-subscriptions.php:67
 #, fuzzy
 msgid "Don't subscribe"
 msgstr "Laat beheerder abonneren"
 
-#: subscribe-to-comments-reloaded.php:68
+#: wp-comment-subscriptions.php:68
 msgid "All"
 msgstr ""
 
-#: subscribe-to-comments-reloaded.php:69
+#: wp-comment-subscriptions.php:69
 #: templates/user.php:65
 msgid "Replies to my comments"
 msgstr ""
 
-#: subscribe-to-comments-reloaded.php:70
+#: wp-comment-subscriptions.php:70
 msgid "Daily digest"
 msgstr ""
 
-#: subscribe-to-comments-reloaded.php:221
+#: wp-comment-subscriptions.php:221
 #: options/index.php:41
 msgid "Manage subscriptions"
 msgstr "Beheer Abonnementen"
 
-#: subscribe-to-comments-reloaded.php:222
+#: wp-comment-subscriptions.php:222
 msgid "To manage your subscriptions, please enter your email address here below. We will send you a message containing the link to access your personal management page."
 msgstr "Om je abonnementen te beheren moet je hieronder je e-mail adres invullen. We sturen je dan een persoonlijk link waar je je abonnementen aan kunt passen."
 
-#: subscribe-to-comments-reloaded.php:223
+#: wp-comment-subscriptions.php:223
 msgid "Thank you for using our subscription service. Your request has been completed, and you should receive an email with the management link in a few minutes."
 msgstr "Bedankt voor het gebruikmaken van onze abonnementen service. Je aanvraag is voltooid en je ontvangt binnen enkele ogenblikken een e-mail met een link naar je persoonlijk beheerpagina."
 
-#: subscribe-to-comments-reloaded.php:224
+#: wp-comment-subscriptions.php:224
 msgid "You can follow the discussion on <strong>[post_title]</strong> without having to leave a comment. Cool, huh? Just enter your email address in the form here below and you're all set."
 msgstr "Je wilt je abonneren op de discussie <strong>[post_title]</strong> zonder zelf te reageren? Vul je e-mail adres hieronder in en de rest gaat vanzelf."
 
-#: subscribe-to-comments-reloaded.php:225
+#: wp-comment-subscriptions.php:225
 msgid "Thank you for using our subscription service. Your request has been completed. You will receive a notification email every time a new comment to this article is approved and posted by the administrator."
 msgstr "Bedankt voor het gebruikmaken van onze abonnementen service. Je aanvraag is voltooid. Je ontvangt iedere keer een e-mail als er een nieuwe reactie is geplaatst."
 
-#: subscribe-to-comments-reloaded.php:226
+#: wp-comment-subscriptions.php:226
 msgid "Thank you for using our subscription service. In order to confirm your request, please check your email for the verification message and follow the instructions."
 msgstr "Bedankt voor het gebruikmaken van onze abonnementen service. Om je aanvraag te voltooien moet je deze eerst bevestigen. Je ontvangt hierover binnen enkele ogenblikken een e-mail bericht."
 
-#: subscribe-to-comments-reloaded.php:227
+#: wp-comment-subscriptions.php:227
 msgid "In order to cancel or suspend one or more notifications, select the corresponding checkbox(es) and click on the button at the end of the list."
 msgstr "Om je abonnementenen aan te passen vink je het gewenste abonnement aan en klik je op de desgewenste actie."
 
-#: subscribe-to-comments-reloaded.php:228
+#: wp-comment-subscriptions.php:228
 msgid "In order to cancel or suspend one or more notifications, select the corresponding checkbox(es) and click on the button at the end of the list. You are currently subscribed to:"
 msgstr "Om je abonnementenen aan te passen vink je het gewenste abonnement aan en klik je op de desgewenste actie. Momenteel ben je geabonneerd op de volgende berichten:"
 
-#: subscribe-to-comments-reloaded.php:242
+#: wp-comment-subscriptions.php:242
 msgid "There is a new comment to [post_title]"
 msgstr "Er is een nieuwe reactie geplaatst bij [post_title]"
 
-#: subscribe-to-comments-reloaded.php:243
+#: wp-comment-subscriptions.php:243
 msgid ""
 "There is a new comment to [post_title].\n"
 "Comment Link: [comment_permalink]\n"
@@ -112,11 +112,11 @@ msgstr ""
 "Permalink: [post_permalink]\n"
 "Beheer je abonnementen: [manager_link]"
 
-#: subscribe-to-comments-reloaded.php:250
+#: wp-comment-subscriptions.php:250
 msgid "Please confirm your subscription to [post_title]"
 msgstr "Bevestig je abonnement op [post_title]"
 
-#: subscribe-to-comments-reloaded.php:251
+#: wp-comment-subscriptions.php:251
 msgid ""
 "You have requested to be notified every time a new comment is added to:\n"
 "[post_permalink]\n"
@@ -125,11 +125,11 @@ msgid ""
 "[confirm_link]"
 msgstr "Op <a href='[manager_link]'>deze pagina</a> kun je de abonnementen van dit bericht beheren."
 
-#: subscribe-to-comments-reloaded.php:252
+#: wp-comment-subscriptions.php:252
 msgid "Manage your subscriptions on [blog_name]"
 msgstr "Beheer je abonnementen op [blog_name]"
 
-#: subscribe-to-comments-reloaded.php:253
+#: wp-comment-subscriptions.php:253
 msgid ""
 "You have requested to manage your subscriptions to the articles on [blog_name]. Follow this link to access your personal page:\n"
 "[manager_link]"
@@ -137,11 +137,11 @@ msgstr ""
 "Je hebt gevraagd om de link naar je abonnementen beheer pagina voor de website [blog_name]. Volg de volgende link om naar je persoonlijke beheer pagina te gaan:\n"
 "[manager_link]"
 
-#: subscribe-to-comments-reloaded.php:986
+#: wp-comment-subscriptions.php:986
 msgid "Subscribed"
 msgstr "Geabonneerd"
 
-#: subscribe-to-comments-reloaded.php:1000
+#: wp-comment-subscriptions.php:1000
 #: options/panel2.php:41
 #: options/panel2.php:48
 #: options/panel2.php:55
@@ -154,19 +154,19 @@ msgstr "Geabonneerd"
 msgid "Yes"
 msgstr "Ja"
 
-#: subscribe-to-comments-reloaded.php:1002
+#: wp-comment-subscriptions.php:1002
 msgid "Replies"
 msgstr ""
 
-#: subscribe-to-comments-reloaded.php:1004
+#: wp-comment-subscriptions.php:1004
 msgid "Digest"
 msgstr ""
 
-#: subscribe-to-comments-reloaded.php:1006
+#: wp-comment-subscriptions.php:1006
 msgid "Pending"
 msgstr ""
 
-#: subscribe-to-comments-reloaded.php:1007
+#: wp-comment-subscriptions.php:1007
 #: options/panel2.php:42
 #: options/panel2.php:49
 #: options/panel2.php:56
@@ -179,24 +179,24 @@ msgstr ""
 msgid "No"
 msgstr "Nee"
 
-#: subscribe-to-comments-reloaded.php:1016
+#: wp-comment-subscriptions.php:1016
 #, fuzzy
 msgid "Subscriptions"
 msgstr "Beheer Abonnementen"
 
-#: subscribe-to-comments-reloaded.php:1039
-msgid "Need help on how to use Subscribe to Comments Reloaded? Visit the official"
-msgstr "Hulp nodig bij het gebruik van de Subscribe to Comments Reloaded plugin? Bezoek de officiele"
+#: wp-comment-subscriptions.php:1039
+msgid "Need help on how to use WP Comment Subscriptions? Visit the official"
+msgstr "Hulp nodig bij het gebruik van de WP Comment Subscriptions plugin? Bezoek de officiele"
 
-#: subscribe-to-comments-reloaded.php:1039
+#: wp-comment-subscriptions.php:1039
 msgid "support forum"
 msgstr "support forum"
 
-#: subscribe-to-comments-reloaded.php:1040
+#: wp-comment-subscriptions.php:1040
 msgid "Feeling generous?"
 msgstr "Wees eens gul!"
 
-#: subscribe-to-comments-reloaded.php:1040
+#: wp-comment-subscriptions.php:1040
 msgid "Donate a few bucks!"
 msgstr "Doneer een paar centen!"
 
@@ -961,24 +961,24 @@ msgid "Support the author"
 msgstr "Help de auteur"
 
 #: options/panel6.php:16
-msgid "How valuable is the feature offered by this plugin to your visitors? Subscribe to Comments Reloaded is and will always be free, but consider supporting the author if this plugin made your web site better, especially if you are making money out of it. Any donation received will be reinvested in the development of Subscribe to Comments Reloaded, and to buy some food for my hungry family."
-msgstr "Hoe belangrijk is deze plugin voor jou en je gebruikers? Subscribe to Comments Reloaded is gratis en zal altijd gratis blijven, maar denk er eens over na om de auteur van deze plugin te helpen als deze plugin je echt bevalt en het jou website beter maakt, of als je er geld mee verdiend. Elke donatie zal in de plugin geïnvesteerd worden, in de ontwikkeling ervan en om er eten van te kopen voor mijn hongerige gezin."
+msgid "How valuable is the feature offered by this plugin to your visitors? WP Comment Subscriptions is and will always be free, but consider supporting the author if this plugin made your web site better, especially if you are making money out of it. Any donation received will be reinvested in the development of WP Comment Subscriptions, and to buy some food for my hungry family."
+msgstr "Hoe belangrijk is deze plugin voor jou en je gebruikers? WP Comment Subscriptions is gratis en zal altijd gratis blijven, maar denk er eens over na om de auteur van deze plugin te helpen als deze plugin je echt bevalt en het jou website beter maakt, of als je er geld mee verdiend. Elke donatie zal in de plugin geïnvesteerd worden, in de ontwikkeling ervan en om er eten van te kopen voor mijn hongerige gezin."
 
 #: options/panel6.php:18
 msgid "Don't want to donate? You can still help"
 msgstr "Wil je niet doneren? Je kunt toch helpen"
 
 #: options/panel6.php:19
-msgid "If you don't want to donate money, please consider blogging about my plugin with a link to the plugin's page. Please let your readers know what makes your blog better. You can also contribute donating your time: do not hesitate to send me bug reports, your localization files, ideas on how to improve Subscribe to Comments Reloaded and so on. Whatever you do, thanks for using my plugin!"
-msgstr "Wil je geen geld doneren maar toch helpen? Denk er dan eens over om over mijn plugin te bloggen. Laat de lezers van je blog weten waarom deze plugin je blog beter maakt. Je kunt mij ook helpen door middel van het melden van bugs, het helpen van vertalen of door middel van het toesturen van ideeen om Subscribe to Commentes Reloaded nog beter te maken. Wat je ook doet, in ieder geval bedankt voor het gebruiken van mijn plugin!"
+msgid "If you don't want to donate money, please consider blogging about my plugin with a link to the plugin's page. Please let your readers know what makes your blog better. You can also contribute donating your time: do not hesitate to send me bug reports, your localization files, ideas on how to improve WP Comment Subscriptions and so on. Whatever you do, thanks for using my plugin!"
+msgstr "Wil je geen geld doneren maar toch helpen? Denk er dan eens over om over mijn plugin te bloggen. Laat de lezers van je blog weten waarom deze plugin je blog beter maakt. Je kunt mij ook helpen door middel van het melden van bugs, het helpen van vertalen of door middel van het toesturen van ideeen om WP Commente Subscriptions nog beter te maken. Wat je ook doet, in ieder geval bedankt voor het gebruiken van mijn plugin!"
 
 #: options/panel6.php:21
 msgid "Vote and show your appreciation"
 msgstr "Ondersteun ons door te stemmen"
 
 #: options/panel6.php:22
-msgid "Tell other people if Subscribe to Comments Reloaded works for you and how good it is. <a href=\"http://wordpress.org/extend/plugins/subscribe-to-comments-reloaded/\">Rate it</a> on its Plugin Directory page."
-msgstr "Vertel anderen dat jij Subscribe to Comments Reloaded gebruikt en hoe goed jij het vindt. <a href=\"http://wordpress.org/extend/plugins/subscribe-to-comments-reloaded/\">Stem hier</a> op onze plugin in de WordPress Plugin Directory."
+msgid "Tell other people if WP Comment Subscriptions works for you and how good it is. <a href=\"http://wordpress.org/extend/plugins/wp-comment-subscriptions/\">Rate it</a> on its Plugin Directory page."
+msgstr "Vertel anderen dat jij WP Comment Subscriptions gebruikt en hoe goed jij het vindt. <a href=\"http://wordpress.org/extend/plugins/wp-comment-subscriptions/\">Stem hier</a> op onze plugin in de WordPress Plugin Directory."
 
 #: options/panel6.php:24
 msgid "Sponsor's Corner"

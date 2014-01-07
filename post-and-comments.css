@@ -4,7 +4,7 @@ table.comments-box.fixed{
 table.comments-box.fixed #the-comment-list td.column-author{
  width:30%;
 }
-th.column-subscribe-reloaded,td.column-subscribe-reloaded{
+th.column-wp-comment-subscriptions,td.column-wp-comment-subscriptions{
  text-align:center;
  width:5%;
 }
