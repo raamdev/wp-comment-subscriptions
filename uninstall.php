@@ -6,7 +6,6 @@ if (!defined('WP_UNINSTALL_PLUGIN')) exit;
 global $wpdb;
 
 // Goodbye data...
-$wpdb->query("DROP TABLE IF EXISTS {$wpdb->prefix}subscribe_reloaded"); // Compatibility with versions prior to 1.7
 $wpdb->query("DELETE FROM $wpdb->postmeta WHERE meta_key LIKE '\_stcr@\_%'");
 
 // Goodbye options...
@@ -39,7 +38,6 @@ delete_option('wp_comment_subscriptions_custom_header_meta');
 delete_option('wp_comment_subscriptions_notification_subject');
 delete_option('wp_comment_subscriptions_notification_content');
 delete_option('wp_comment_subscriptions_checkbox_label');
-delete_option('wp_comment_subscriptions_checkbox_class'); // Not used in StCR >= 2.0, but left for backward compatibility
 delete_option('wp_comment_subscriptions_checkbox_inline_style');
 delete_option('wp_comment_subscriptions_checkbox_html');
 delete_option('wp_comment_subscriptions_subscribed_label');
