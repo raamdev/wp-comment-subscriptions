@@ -33,6 +33,7 @@ delete_option('wp_comment_subscriptions_enable_html_emails');
 delete_option('wp_comment_subscriptions_process_trackbacks');
 delete_option('wp_comment_subscriptions_enable_admin_messages');
 delete_option('wp_comment_subscriptions_admin_subscribe');
+delete_option('wp_comment_subscriptions_admin_bcc');
 delete_option('wp_comment_subscriptions_custom_header_meta');
 
 delete_option('wp_comment_subscriptions_notification_subject');

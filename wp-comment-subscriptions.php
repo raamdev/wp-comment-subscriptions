@@ -256,6 +256,7 @@ class wp_comment_subscriptions{
 		add_option('wp_comment_subscriptions_process_trackbacks', 'no', '', 'no');
 		add_option('wp_comment_subscriptions_enable_admin_messages', 'no', '', 'no');
 		add_option('wp_comment_subscriptions_admin_subscribe', 'no', '', 'no');
+		add_option('wp_comment_subscriptions_admin_bcc', 'no', '', 'no');
 
 		// Schedule the autopurge hook
 		if (!wp_next_scheduled('wp_comment_subscriptions_purge'))
