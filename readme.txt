@@ -73,6 +73,16 @@ Yes! Just disable the corresponding option under Settings > Comment Form and the
 == Changelog ==
 
 = v140107 =
+
+* Add paragraph tags to comment content when HTML emails enabled
+* Add option for BCCing admin on Notifications
+* Wrap WP Comment Subscriptions html in a <p> tag with 'comment-form-subscriptions' class
+* Update 'Replies only' option value to 'Replies to this comment'
+* Fix broken Replies Only feature
+* Fix duplicate `MIME-Version` header bug resulting in unsent emails. Fixes a bug where using StCR with other plugins, like WP-Mail-SMTP, results in a quiet duplicate header error. `wp_mail()` already takes care of setting the `MIME-Version` header so this doesn't need to be done again.
+
+= v140106 =
+
 * Forked the [Subscribe to Comments Reloaded Plugin](http://wordpress.org/plugins/subscribe-to-comments-reloaded/) from v2.0.6
 
 == Language Localization ==
