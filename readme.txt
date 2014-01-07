@@ -1,9 +1,20 @@
 === WP Comment Subscriptions ===
-Contributors: raamdev
-Tags: subscribe, comments, notification, subscription, manage, double check-in, follow, commenting, subscribe to comments, comment subscriptions, comment notifications
+
+Plugin Name: WP Comment Subscriptions
+
+Version: 140107
+Stable tag: 140107
 Requires at least: 2.9.2
-Tested up to: 3.5
-Stable tag: 2.0.3
+Tested up to: 3.8
+
+Plugin URI: http://wordpress.org/extend/plugins/wp-comment-subscriptions/
+Description: WP Comment Subscriptions is a robust plugin that enables commenters to sign up for e-mail notifications. It includes a full-featured subscription manager that your commenters can use to unsubscribe to certain posts or suspend all notifications.
+
+Author: Raam Dev
+Author URI: http://raamdev.com/
+Contributors: raamdev
+
+Tags: subscribe, comments, notification, subscription, manage, double check-in, follow, commenting, subscribe to comments, comment subscriptions, comment notifications
 
 Give commenters the ability to receive e-mail notifications for all new comment replies or only replies to their comment.
 
