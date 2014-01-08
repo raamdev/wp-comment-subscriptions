@@ -8,7 +8,7 @@ Requires at least: 2.9.2
 Tested up to: 3.8
 
 Plugin URI: http://wordpress.org/extend/plugins/wp-comment-subscriptions/
-Description: WP Comment Subscriptions is a robust plugin that enables commenters to sign up for e-mail notifications. It includes a full-featured subscription manager that your commenters can use to unsubscribe to certain posts or suspend all notifications.
+Description: Give commenters the ability to receive e-mail notifications for all new comment replies or only replies to their comments.
 
 Text Domain: wp-comment-subscriptions
 Domain Path: /langs
@@ -19,10 +19,6 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Contributors: raamdev
 
 License: GNU General Public License v2 or later.
-
-Tags: subscribe, comments, notification, subscription, manage, double check-in, follow, commenting, subscribe to comments, comment subscriptions, comment notifications
-
-Give commenters the ability to receive e-mail notifications for all new comment replies or only replies to their comment.
 
 */
 
