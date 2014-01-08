@@ -6,7 +6,7 @@ if (!defined('WP_UNINSTALL_PLUGIN')) exit;
 global $wpdb;
 
 // Goodbye data...
-$wpdb->query("DELETE FROM $wpdb->postmeta WHERE meta_key LIKE '\_stcr@\_%'");
+$wpdb->query("DELETE FROM $wpdb->postmeta WHERE meta_key LIKE '\_wpcs@\_%'");
 
 // Goodbye options...
 delete_option('wp_comment_subscriptions_manager_page_enabled');
@@ -47,6 +47,9 @@ delete_option('wp_comment_subscriptions_double_check_subject');
 delete_option('wp_comment_subscriptions_double_check_content');
 delete_option('wp_comment_subscriptions_management_subject');
 delete_option('wp_comment_subscriptions_management_content');
+
+delete_option('wp_comment_subscriptions_version');
+delete_option('wp_comment_subscriptions_deferred_admin_notices');
 
 // Remove scheduled autopurge events
 wp_clear_scheduled_hook('wp_comment_subscriptions_purge');
