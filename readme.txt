@@ -58,7 +58,7 @@ Development of this plugin is ongoing and I welcome bug reports, feature request
 5. If you don't see the checkbox to subscribe, you will have to manually edit your template, and add `<?php if (function_exists('wp_comment_subscriptions_show')) wp_comment_subscriptions_show(); ?>` somewhere in your `comments.php`
 6. If you're upgrading from a previous version, please **make sure to deactivate/activate** WP Comment Subscriptions
 
-Note: If you were previously using Subscribe to Comments Reloaded, your subscription data will be imported but you'll need to reconfigure your options and settings.
+Note: If you were previously using Subscribe to Comments Reloaded, your subscription data will be imported but you'll need to reconfigure your options and settings. Also note that function names have changed, so if you were previously using `subscribe_reloaded_show()` in your WordPress theme, you'll need to change that to `wp_comment_subscriptions_show()`.
 
 == Frequently Asked Questions ==
 
