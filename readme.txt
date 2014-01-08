@@ -2,8 +2,8 @@
 
 Plugin Name: WP Comment Subscriptions
 
-Version: 140107
-Stable tag: 140107
+Version: 140108
+Stable tag: 140108
 Requires at least: 2.9.2
 Tested up to: 3.8
 
@@ -30,7 +30,7 @@ WP Comment Subscriptions is a robust plugin that gives commenters the ability to
 
 This plugin fixes problems with the Subscribe to Comments Reloaded plugin that prevent users from being able to signup to receive notifications only when someone replies to their comment, as opposed to receiving notifications for all new comments. It also fixes issues with HTML-formatted emails and adds a new option that allows you to BCC the administrator a copy of all outgoing notifications.
 
-Development of this plugin is ongoing and I welcome bug reports, feature requests, and pull requests [over at GitHub](https://github.com/raamdev/wp-comment-subscriptions).
+Development of this plugin is ongoing and I welcome bug reports, feature requests, and pull requests [over at GitHub](https://github.com/raamdev/wp-comment-subscriptions/).
 
 = Requirements =
 
@@ -42,7 +42,7 @@ Development of this plugin is ongoing and I welcome bug reports, feature request
 
 * Does not modify Wordpress core tables
 * Easily manage and search among your subscriptions
-* Supports existing subscriptions created via the Subscribe to Comments Reloaded plugin
+* Imports Subscribe to Comments Reloaded plugin options and data
 * Imports Mark Jaquith's Subscribe To Comments (and its clones) data
 * Lets commenters choose to receive only replies to their own comments
 * Messages are fully customizable, no poEdit required (and you can use HTML!)
@@ -51,14 +51,14 @@ Development of this plugin is ongoing and I welcome bug reports, feature request
 
 == Installation ==
 
-1. If you are using Subscribe To Comments by Mark Jaquith or Subscribe To Comments Reloaded, disable them (but don't delete until after activating this plugin, so this plugin can import any existing subscription data)
+1. If you are using Subscribe To Comments by Mark Jaquith or Subscribe To Comments Reloaded, disable them (but don't delete until after activating this plugin, so this plugin can import any existing options and comment subscription data)
 2. Upload the entire folder and all the subfolders to your WordPress plugins' folder
 3. Activate it
 5. Customize the Permalink value under Settings > Comment Subscriptions > Management Page > Management URL. It **must** reflect your permalinks' structure
 5. If you don't see the checkbox to subscribe, you will have to manually edit your template, and add `<?php if (function_exists('wp_comment_subscriptions_show')) wp_comment_subscriptions_show(); ?>` somewhere in your `comments.php`
 6. If you're upgrading from a previous version, please **make sure to deactivate/activate** WP Comment Subscriptions
 
-Note: If you were previously using Subscribe to Comments Reloaded, your subscription data will be imported but you'll need to reconfigure your options and settings. Also note that function names have changed, so if you were previously using `subscribe_reloaded_show()` in your WordPress theme, you'll need to change that to `wp_comment_subscriptions_show()`.
+Note: If you were previously using Subscribe to Comments Reloaded, note that function and shortcode names have changed. If you were previously using the `subscribe_reloaded_show()` function or the `[subscribe-url]` shortcode, you'll need to replace those with `wp_comment_subscriptions_show()` and `[wpcs-subscribe-url]` respectively.
 
 == Frequently Asked Questions ==
 
@@ -69,8 +69,8 @@ Yes, each HTML tag has a CSS class or ID that you can use to change its position
 Add a custom field called `stcr_disable_subscriptions` to it, with value 'yes'
 
 = How do I add the management page URL to my posts? =
-Use the shortcode `[subscribe-url]`, or use the following code in your theme: 
-`if(function_exists('wp_comment_subscriptions_show')) echo '<a href="'.do_shortcode('[subscribe-url]').'">Subscribe</a>";`
+Use the shortcode `[wpcs-subscribe-url]`, or use the following code in your theme:
+`if(function_exists('wp_comment_subscriptions_show')) echo '<a href="'.do_shortcode('[wpcs-subscribe-url]').'">Subscribe</a>";`
 
 = Can I move the subscription checkbox to another position? =
 Yes! Just disable the corresponding option under Settings > Comment Form and then add the following code where you want to display the checkbox:
@@ -93,6 +93,13 @@ If you have a bug to report or a feature request you'd like to make, please open
 == Upgrade Notice ==
 
 == Changelog ==
+
+= v140108 =
+
+* Initial release to the WordPress.org Plugin Repository
+* Import existing options and configuration from the Subscribe to Comments Reloaded plugin.
+* Import existing comment subscription data from the Subscribe to Comments Reloaded plugin. The imported comment subscription data is now copied to a new `meta_key` with the prefix `_wpcs@_` inside the `wp_postmeta` table. This allows you to delete the Subscribe to Comments Reloaded plugin without losing the comment subscription data. WP Comment Subscriptions is now fully independent and does not rely on data from Subscribe to Comments Reloaded.
+* Added admin notices to indicate when data is imported from an existing plugin.
 
 = v140107 =
 
