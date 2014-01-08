@@ -10,13 +10,20 @@ Tested up to: 3.8
 Plugin URI: http://wordpress.org/extend/plugins/wp-comment-subscriptions/
 Description: WP Comment Subscriptions is a robust plugin that enables commenters to sign up for e-mail notifications. It includes a full-featured subscription manager that your commenters can use to unsubscribe to certain posts or suspend all notifications.
 
+Text Domain: wp-comment-subscriptions
+Domain Path: /langs
+
 Author: Raam Dev
 Author URI: http://raamdev.com/
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=82JLPADVDAB2Q
 Contributors: raamdev
+
+License: GNU General Public License v2 or later.
 
 Tags: subscribe, comments, notification, subscription, manage, double check-in, follow, commenting, subscribe to comments, comment subscriptions, comment notifications
 
 Give commenters the ability to receive e-mail notifications for all new comment replies or only replies to their comment.
+
 */
 
 // Avoid direct access to this piece of code
@@ -235,7 +242,7 @@ class wp_comment_subscriptions{
 		add_option('wp_comment_subscriptions_checked_by_default', 'no', '', 'no');
 		add_option('wp_comment_subscriptions_enable_advanced_subscriptions', 'no', '', 'no');
 		add_option('wp_comment_subscriptions_checkbox_inline_style', 'width:30px', '', 'no');
-		add_option('wp_comment_subscriptions_checkbox_html', "<p><label for='wp-comment-subscriptions'>[checkbox_field] [checkbox_label]</label></p>", '', 'no');
+		add_option('wp_comment_subscriptions_checkbox_html', "<label for='wp-comment-subscriptions'>[checkbox_field] [checkbox_label]</label>", '', 'no');
 		add_option('wp_comment_subscriptions_checkbox_label', __("Notify me of followup comments via e-mail. You can also <a href='[subscribe_link]'>subscribe</a> without commenting.",'wp-comment-subscriptions'), '', 'no');
 		add_option('wp_comment_subscriptions_subscribed_label', __("You are subscribed to this post. <a href='[manager_link]'>Manage</a> your subscriptions.",'wp-comment-subscriptions'), '', 'no');
 		add_option('wp_comment_subscriptions_subscribed_waiting_label', __("Your subscription to this post needs to be confirmed. <a href='[manager_link]'>Manage your subscriptions</a>.",'wp-comment-subscriptions'), '', 'no');

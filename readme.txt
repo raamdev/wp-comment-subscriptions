@@ -10,9 +10,15 @@ Tested up to: 3.8
 Plugin URI: http://wordpress.org/extend/plugins/wp-comment-subscriptions/
 Description: WP Comment Subscriptions is a robust plugin that enables commenters to sign up for e-mail notifications. It includes a full-featured subscription manager that your commenters can use to unsubscribe to certain posts or suspend all notifications.
 
+Text Domain: wp-comment-subscriptions
+Domain Path: /langs
+
 Author: Raam Dev
 Author URI: http://raamdev.com/
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=82JLPADVDAB2Q
 Contributors: raamdev
+
+License: GNU General Public License v2 or later.
 
 Tags: subscribe, comments, notification, subscription, manage, double check-in, follow, commenting, subscribe to comments, comment subscriptions, comment notifications
 
@@ -68,7 +74,9 @@ Yes! Just disable the corresponding option under Settings > Comment Form and the
 
 1. Manage your subscriptions
 2. Use your own messages to interact with your users
-3. Customize the plugin's behavior
+3. Configure the Virtual Management page
+4. Customize the notification messages
+5. Customize the plugin's behavior
 
 == Changelog ==
 
