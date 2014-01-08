@@ -32,13 +32,13 @@ This plugin fixes the problem with the Subscribe to Comments Reloaded plugin tha
 
 Development of this plugin is ongoing and I welcome bug reports, feature requests, and pull requests [over at GitHub](https://github.com/raamdev/wp-comment-subscriptions).
 
-## Requirements
+= Requirements =
 
 * Wordpress 2.9.2 or higher
 * PHP 5.1 or higher
 * MySQL 5.x or higher
 
-## Main Features
+= Main Features =
 
 * Does not modify Wordpress core tables
 * Easily manage and search among your subscriptions
