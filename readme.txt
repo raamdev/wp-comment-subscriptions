@@ -102,7 +102,7 @@ This plugin was forked from the Subscribe To Comments Reloaded plugin. There wer
 
 = v140106 =
 
-* Renamed functions and WordPress options to reflect the new plugin name (WP Comment Subscriptions). If you're using `subscribe_reloaded_show()` in your WordPress theme, you'll need to change that to `wp_comment_subscriptions_show()`. The subscription data in the database however has not changed and still uses the `stcr@` key, so it's fully compatible with Subscribe to Commetns Reloaded v2.0.6.
+* Renamed functions and WordPress options to reflect the new plugin name (WP Comment Subscriptions). If you're using `subscribe_reloaded_show()` in your WordPress theme, you'll need to change that to `wp_comment_subscriptions_show()`. The subscription data in the database however has not changed and still uses the `stcr@` key, so it's fully compatible with Subscribe to Comments Reloaded v2.0.6.
 * Forked the [Subscribe to Comments Reloaded Plugin](http://wordpress.org/plugins/subscribe-to-comments-reloaded/) from v2.0.6
 
 == Language Localization ==
