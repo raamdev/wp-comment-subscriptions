@@ -28,7 +28,7 @@ Give commenters the ability to receive e-mail notifications for all new comment 
 
 WP Comment Subscriptions is a robust plugin that gives commenters the ability to sign up for e-mail notifications of subsequent comment replies or to receive only notification only for replies made to their own comments. The plugin includes a full-featured subscription manager that your commenters can use to unsubscribe from certain posts or suspend all notifications. It allows administrators to enable a double opt-in mechanism, requiring users to confirm their subscription by clicking a link they will receive via email.
 
-This plugin fixes the problem with the Subscribe to Comments Reloaded plugin that prevents users from being able to signup to receive notifications only when someone replies to their comment, as opposed to receiving notifications for all new comments. It also fixes issues with HTML-formatted emails and adds a new option that allows you to BCC the administrator a copy of all outgoing notifications.
+This plugin fixes problems with the Subscribe to Comments Reloaded plugin that prevent users from being able to signup to receive notifications only when someone replies to their comment, as opposed to receiving notifications for all new comments. It also fixes issues with HTML-formatted emails and adds a new option that allows you to BCC the administrator a copy of all outgoing notifications.
 
 Development of this plugin is ongoing and I welcome bug reports, feature requests, and pull requests [over at GitHub](https://github.com/raamdev/wp-comment-subscriptions).
 
