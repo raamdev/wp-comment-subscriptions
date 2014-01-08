@@ -79,6 +79,9 @@ Yes! Just disable the corresponding option under Settings > Comment Form and the
 = This plugin looks eerily similar to the Subscribe To Comments Reloaded plugin; what gives? =
 This plugin was forked from the Subscribe To Comments Reloaded plugin. There were several broken features in that plugin (including most importantly the ability to receive only replies to your own comment) and a few missing features (such as the ability to BCC the administrator a copy of all notifications; very useful for debugging!) that WP Comment Subscriptions has fixed. The original Subscribe To Comments Reloaded plugin author stopped working on that plugin and development slowed, so I took it upon myself to fork the plugin and continue development.
 
+= How can I submit a bug report or make a feature request? =
+If you have a bug to report or a feature request you'd like to make, please open a new issue on [GitHub](http://github.com/raamdev/wp-comment-subscriptions/issues/). That will be the fastest way to get a response.
+
 == Screenshots ==
 
 1. Manage your subscriptions
