@@ -33,28 +33,25 @@ WP Comment Subscriptions is a robust plugin that gives commenters the ability to
 * MySQL 5.x or higher
 
 ## Main Features
-* Lets commenters receive notifications only when someone replies to their comment
 * Does not modify Wordpress core tables
 * Easily manage and search among your subscriptions
 * Supports existing subscriptions created via the Subscribe to Comments Reloaded plugin
 * Imports Mark Jaquith's Subscribe To Comments (and its clones) data
+* Lets commenters choose to receive only replies to their own comments
 * Messages are fully customizable, no poEdit required (and you can use HTML!)
 * Disable subscriptions for specific posts
 * Compatible with [Fluency Admin](http://deanjrobinson.com/projects/fluency-admin/) and [QTranslate](http://wordpress.org/extend/plugins/qtranslate/)
 
 == Installation ==
 
-1. If you are using Subscribe To Comments by Mark Jaquith or Subscribe To Comments Reloaded, disable it (no need to uninstall it, though)
-2. Upload the entire folder and all the subfolders to your Wordpress plugins' folder
+1. If you are using Subscribe To Comments by Mark Jaquith or Subscribe To Comments Reloaded, disable them (but don't delete until after activating this plugin, so this plugin can import any existing subscription data)
+2. Upload the entire folder and all the subfolders to your WordPress plugins' folder
 3. Activate it
 5. Customize the Permalink value under Settings > Comment Subscriptions > Management Page > Management URL. It **must** reflect your permalinks' structure
 5. If you don't see the checkbox to subscribe, you will have to manually edit your template, and add `<?php if (function_exists('wp_comment_subscriptions_show')) wp_comment_subscriptions_show(); ?>` somewhere in your `comments.php`
 6. If you're upgrading from a previous version, please **make sure to deactivate/activate** WP Comment Subscriptions
 
 == Frequently Asked Questions ==
-
-= This plugin looks eerily similar to the Subscribe To Comments Reloaded plugin; what gives? =
-This plugin was forked from the Subscribe To Comments Reloaded plugin. There were several broken features in that plugin (including most importantly the ability to receive only replies to your own comment) and a few missing features (such as the ability to BCC the administrator a copy of all notifications; very useful for debugging!) that WP Comment Subscriptions has fixed. The original Subscribe To Comments Reloaded plugin author stopped working on that plugin and development slowed, so I took it upon myself to fork the plugin and continue development.
 
 = Can I customize the layout of the management page? =
 Yes, each HTML tag has a CSS class or ID that you can use to change its position or look-and-feel
@@ -70,6 +67,9 @@ Use the shortcode `[subscribe-url]`, or use the following code in your theme:
 Yes! Just disable the corresponding option under Settings > Comment Form and then add the following code where you want to display the checkbox:
 `<?php if (function_exists('wp_comment_subscriptions_show')) wp_comment_subscriptions_show(); ?>`
 
+= This plugin looks eerily similar to the Subscribe To Comments Reloaded plugin; what gives? =
+This plugin was forked from the Subscribe To Comments Reloaded plugin. There were several broken features in that plugin (including most importantly the ability to receive only replies to your own comment) and a few missing features (such as the ability to BCC the administrator a copy of all notifications; very useful for debugging!) that WP Comment Subscriptions has fixed. The original Subscribe To Comments Reloaded plugin author stopped working on that plugin and development slowed, so I took it upon myself to fork the plugin and continue development.
+
 == Screenshots ==
 
 1. Manage your subscriptions
@@ -78,13 +78,15 @@ Yes! Just disable the corresponding option under Settings > Comment Form and the
 4. Customize the notification messages
 5. Customize the plugin's behavior
 
+== Upgrade Notice ==
+
 == Changelog ==
 
 = v140107 =
 
 * Add paragraph tags to comment content when HTML emails enabled
 * Add option for BCCing admin on Notifications
-* Wrap WP Comment Subscriptions html in a <p> tag with 'comment-form-subscriptions' class
+* Wrap WP Comment Subscriptions html in a pragraph tag with `comment-form-subscriptions` class
 * Update 'Replies only' option value to 'Replies to this comment'
 * Fix broken Replies Only feature
 * Fix duplicate `MIME-Version` header bug resulting in unsent emails. Fixes a bug where using StCR with other plugins, like WP-Mail-SMTP, results in a quiet duplicate header error. `wp_mail()` already takes care of setting the `MIME-Version` header so this doesn't need to be done again.
