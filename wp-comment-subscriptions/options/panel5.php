@@ -12,6 +12,7 @@ if (isset($_POST['options'])){
 	if (isset($_POST['options']['enable_double_check']) && !wp_comment_subscriptions_update_option('enable_double_check', $_POST['options']['enable_double_check'], 'yesno')) $faulty_fields = __('Enable double check','wp-comment-subscriptions').', ';
 	if (isset($_POST['options']['notify_authors']) && !wp_comment_subscriptions_update_option('notify_authors', $_POST['options']['notify_authors'], 'yesno')) $faulty_fields = __('Subscribe authors','wp-comment-subscriptions').', ';
 	if (isset($_POST['options']['enable_html_emails']) && !wp_comment_subscriptions_update_option('enable_html_emails', $_POST['options']['enable_html_emails'], 'yesno')) $faulty_fields = __('Enable HTML emails','wp-comment-subscriptions').', ';
+	if (isset($_POST['options']['htmlify_message_links']) && !wp_comment_subscriptions_update_option('htmlify_message_links', $_POST['options']['htmlify_message_links'], 'yesno')) $faulty_fields = __('HTMLify Links in HTML emails','wp-comment-subscriptions').', ';
 	if (isset($_POST['options']['process_trackbacks']) && !wp_comment_subscriptions_update_option('process_trackbacks', $_POST['options']['process_trackbacks'], 'yesno')) $faulty_fields = __('Send trackbacks','wp-comment-subscriptions').', ';
 	if (isset($_POST['options']['enable_admin_messages']) && !wp_comment_subscriptions_update_option('enable_admin_messages', $_POST['options']['enable_admin_messages'], 'yesno')) $faulty_fields = __('Notify admin','wp-comment-subscriptions').', ';
 	if (isset($_POST['options']['admin_subscribe']) && !wp_comment_subscriptions_update_option('admin_subscribe', $_POST['options']['admin_subscribe'], 'yesno')) $faulty_fields = __('Let admin subscribe','wp-comment-subscriptions').', ';
@@ -57,6 +58,13 @@ wp_print_scripts( 'quicktags' );
 			<input type="radio" name="options[enable_html_emails]" id="enable_html_emails" value="yes"<?php echo (wp_comment_subscriptions_get_option('enable_html_emails') == 'yes')?' checked="checked"':''; ?>> <?php _e('Yes','wp-comment-subscriptions') ?> &nbsp; &nbsp; &nbsp;
 			<input type="radio" name="options[enable_html_emails]" value="no" <?php echo (wp_comment_subscriptions_get_option('enable_html_emails') == 'no')?'  checked="checked"':''; ?>> <?php _e('No','wp-comment-subscriptions') ?>
 			<div class="description"><?php _e('If enabled, will send email messages with content-type = text/html instead of text/plain','wp-comment-subscriptions'); ?></div></td>
+	</tr>
+	<tr>
+		<th scope="row"><label for="htmlify_message_links"><?php _e('HTMLify links in emails','wp-comment-subscriptions') ?></label></th>
+		<td>
+			<input type="radio" name="options[htmlify_message_links]" id="htmlify_message_links" value="yes"<?php echo (wp_comment_subscriptions_get_option('htmlify_message_links') == 'yes')?' checked="checked"':''; ?>> <?php _e('Yes','wp-comment-subscriptions') ?> &nbsp; &nbsp; &nbsp;
+			<input type="radio" name="options[htmlify_message_links]" value="no" <?php echo (wp_comment_subscriptions_get_option('htmlify_message_links') == 'no')?'  checked="checked"':''; ?>> <?php _e('No','wp-comment-subscriptions') ?>
+			<div class="description"><?php _e('If enabled, will wrap all links in messages with <code>&lt;a href=""&gt;&lt;/a&gt;</code> (only when HTML emails enabled).','wp-comment-subscriptions'); ?></div></td>
 	</tr>
 	<tr>
 		<th scope="row"><label for="process_trackbacks"><?php _e('Process trackbacks','wp-comment-subscriptions') ?></label></th>

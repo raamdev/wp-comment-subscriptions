@@ -29,6 +29,7 @@ delete_option('wp_comment_subscriptions_checked_by_default');
 delete_option('wp_comment_subscriptions_enable_double_check');
 delete_option('wp_comment_subscriptions_notify_authors');
 delete_option('wp_comment_subscriptions_enable_html_emails');
+delete_option('wp_comment_subscriptions_htmlify_message_links');
 delete_option('wp_comment_subscriptions_process_trackbacks');
 delete_option('wp_comment_subscriptions_enable_admin_messages');
 delete_option('wp_comment_subscriptions_admin_subscribe');
