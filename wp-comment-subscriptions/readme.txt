@@ -2,8 +2,8 @@
 
 Plugin Name: WP Comment Subscriptions
 
-Version: 140108
-Stable tag: 140108
+Version: 140109
+Stable tag: 140109
 Requires at least: 2.9.2
 Tested up to: 3.8
 
@@ -95,6 +95,15 @@ If you have a bug to report or a feature request you'd like to make, please open
 == Upgrade Notice ==
 
 == Changelog ==
+
+= v140109 =
+
+* **New 'default subscription type' Option**. If you're using Advanced subscriptions, you can now specify the Advanced default subscription type ("None", "All new comments", or "Replies to this comment") in *Settings -> Comment Subscriptions -> Comment Form -> Advanced default*. This will be the default option shown on the comment form. See: <https://github.com/raamdev/wp-comment-subscriptions/issues/6>
+* **New 'HTMLify links in emails' Option**. When using HTML emails for messages you can now choose to have WP Comment Subscriptions automatically HTMLify the links for you (*Settings -> Comment Subscriptions -> Options -> HTMLify links in emails*). You can, of course, leave this option disabled and add your own HTML to the messages if you prefer. See: <https://github.com/raamdev/wp-comment-subscriptions/issues/7>.
+* Improved Subscribe to Comments Reloaded import routine.
+* Added plugin title to settings pages.
+* Improved import messaging to only recommend deactivating the Subscribe to Comments Reloaded plugin when it's actually active. See: <https://github.com/raamdev/wp-comment-subscriptions/issues/2>
+* Added settings link to plugins page. See: <https://github.com/raamdev/wp-comment-subscriptions/issues/8>
 
 = v140108 =
 

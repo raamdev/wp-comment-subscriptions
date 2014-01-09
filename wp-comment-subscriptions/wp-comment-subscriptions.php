@@ -2,8 +2,8 @@
 /*
 Plugin Name: WP Comment Subscriptions
 
-Version: 140108
-Stable tag: 140108
+Version: 140109
+Stable tag: 140109
 Requires at least: 2.9.2
 Tested up to: 3.8
 
@@ -102,7 +102,7 @@ if (get_option('wp_comment_subscriptions_show_subscription_box', 'yes') == 'yes'
 
 class wp_comment_subscriptions {
 
-	public $current_version = '140108';
+	public $current_version = '140109';
 
 	/**
 	 * Constructor -- Sets things up.
