@@ -60,7 +60,7 @@ if ($wp_locale->text_direction != 'ltr')
 
 ?>
 <div class="wrap">
-	<div id="subscribe-to-comments-icon" class="icon32 <?php echo $wp_locale->text_direction ?>"></div>
+	<h2>WP Comment Subscriptions</h2>
 	<h2 class="medium">
 		<?php
 		foreach($array_panels as $a_panel_id => $a_panel_details){
