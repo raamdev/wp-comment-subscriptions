@@ -1233,7 +1233,6 @@ class wp_comment_subscriptions {
 		if( $option = get_option('subscribe_reloaded_process_trackbacks') ) { add_option('wp_comment_subscriptions_process_trackbacks', $option); }
 		if( $option = get_option('subscribe_reloaded_enable_admin_messages') ) { add_option('wp_comment_subscriptions_enable_admin_messages', $option); }
 		if( $option = get_option('subscribe_reloaded_admin_subscribe') ) { add_option('wp_comment_subscriptions_admin_subscribe', $option); }
-		if( $option = get_option('subscribe_reloaded_admin_bcc') ) { add_option('wp_comment_subscriptions_admin_bcc', $option); }
 
 		// Import the information collected by Subscribe to Comments Reloaded, if needed
 		$stcr_data_count = $wpdb->get_var("SELECT COUNT(*) FROM $wpdb->postmeta WHERE meta_key LIKE '\_stcr@\_%'");
