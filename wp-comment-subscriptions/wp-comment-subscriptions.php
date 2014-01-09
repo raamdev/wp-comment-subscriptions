@@ -166,6 +166,9 @@ class wp_comment_subscriptions {
 
 			// Shortcodes to use the management URL sitewide
 			add_shortcode('wpcs-subscribe-url', array(&$this,'subscribe_url_shortcode'));
+
+			// Settings link for plugin on plugins page
+			add_filter('plugin_action_links', array(&$this,'plugin_settings_link'), 10, 2);
 		}
 	}
 	// end __construct
@@ -329,6 +332,16 @@ class wp_comment_subscriptions {
 		delete_option('wp_comment_subscriptions_deferred_admin_notices');
 	}
 	// end deactivate
+
+	/*
+	 * Add Settings link to plugin on plugins page
+	 */
+	public function plugin_settings_link($links, $file) {
+		if ( $file == 'wp-comment-subscriptions/wp-comment-subscriptions.php' ) {
+			$links['settings'] = sprintf( '<a href="%s"> %s </a>', admin_url( 'options-general.php?page=wp-comment-subscriptions/options/index.php' ), __( 'Settings', 'wp-comment-subscriptions' ) );
+		}
+		return $links;
+	}
 
 	/**
 	 * Takes the appropriate action, when a new comment is posted
