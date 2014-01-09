@@ -22,6 +22,7 @@ delete_option('wp_comment_subscriptions_user_text');
 
 delete_option('wp_comment_subscriptions_show_subscription_box');
 delete_option('wp_comment_subscriptions_enable_advanced_subscriptions');
+delete_option('wp_comment_subscriptions_advanced_default');
 delete_option('wp_comment_subscriptions_purge_days');
 delete_option('wp_comment_subscriptions_from_name');
 delete_option('wp_comment_subscriptions_from_email');

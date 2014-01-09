@@ -78,9 +78,9 @@ function wp_comment_subscriptions_show(){
 		}
 		else{
 			$checkbox_field = "<select name='wp-comment-subscriptions' id='wp-comment-subscriptions'>
-				<option value='none'>".__("None",'wp-comment-subscriptions')."</option>
-				<option value='yes'>".__('All new comments','wp-comment-subscriptions')."</option>
-				<option value='replies'".((get_option('wp_comment_subscriptions_checked_by_default', 'no') == 'yes')?" selected='selected'":'').">".__('Replies to this comment','wp-comment-subscriptions')."</option>
+				<option value='none' ". ( ( get_option('wp_comment_subscriptions_advanced_default') === '0') ? "selected='selected'" : '' ) .">".__("None",'wp-comment-subscriptions')."</option>
+				<option value='yes' ". ( ( get_option('wp_comment_subscriptions_advanced_default') === '1') ? "selected='selected'" : '' ) .">".__('All new comments','wp-comment-subscriptions')."</option>
+				<option value='replies' ". ( ( get_option('wp_comment_subscriptions_advanced_default') === '2') ? "selected='selected'" : '' ) .">".__('Replies to this comment','wp-comment-subscriptions')."</option>
 				<!-- option value='digest'>".__('Daily digest','wp-comment-subscriptions')."</option -->
 			</select>";
 		}
@@ -258,6 +258,7 @@ class wp_comment_subscriptions {
 		add_option('wp_comment_subscriptions_show_subscription_box', 'yes', '', 'no');
 		add_option('wp_comment_subscriptions_checked_by_default', 'no', '', 'no');
 		add_option('wp_comment_subscriptions_enable_advanced_subscriptions', 'no', '', 'no');
+		add_option('wp_comment_subscriptions_advanced_default', '2', '', 'no');
 		add_option('wp_comment_subscriptions_checkbox_inline_style', 'width:30px', '', 'no');
 		add_option('wp_comment_subscriptions_checkbox_html', "<label for='wp-comment-subscriptions'>[checkbox_field] [checkbox_label]</label>", '', 'no');
 		add_option('wp_comment_subscriptions_checkbox_label', __("Notify me of followup comments via e-mail. You can also <a href='[subscribe_link]'>subscribe</a> without commenting.",'wp-comment-subscriptions'), '', 'no');

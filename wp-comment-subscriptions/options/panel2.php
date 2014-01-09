@@ -11,6 +11,7 @@ if (isset($_POST['options'])){
 	if (isset($_POST['options']['show_subscription_box']) && !wp_comment_subscriptions_update_option('show_subscription_box', $_POST['options']['show_subscription_box'], 'yesno')) $faulty_fields = __('Enable default checkbox','wp-comment-subscriptions').', ';
 	if (isset($_POST['options']['checked_by_default']) && !wp_comment_subscriptions_update_option('checked_by_default', $_POST['options']['checked_by_default'], 'yesno')) $faulty_fields = __('Checked by default','wp-comment-subscriptions').', ';
 	if (isset($_POST['options']['enable_advanced_subscriptions']) && !wp_comment_subscriptions_update_option('enable_advanced_subscriptions', $_POST['options']['enable_advanced_subscriptions'], 'yesno')) $faulty_fields = __('Advanced subscription','wp-comment-subscriptions').', ';
+	if (isset($_POST['options']['advanced_default']) && !wp_comment_subscriptions_update_option('advanced_default', $_POST['options']['advanced_default'], 'integer')) $faulty_fields = __('Advanced default','wp-comment-subscriptions').', ';
 	if (isset($_POST['options']['checkbox_inline_style']) && !wp_comment_subscriptions_update_option('checkbox_inline_style', $_POST['options']['checkbox_inline_style'], 'text-no-encode')) $faulty_fields = __('Custom inline style','wp-comment-subscriptions').', ';
 	if (isset($_POST['options']['checkbox_html']) && !wp_comment_subscriptions_update_option('checkbox_html', $_POST['options']['checkbox_html'], 'text-no-encode')) $faulty_fields = __('Custom HTML','wp-comment-subscriptions').', ';
 
@@ -55,6 +56,16 @@ if (isset($_POST['options'])){
 			<input type="radio" name="options[enable_advanced_subscriptions]" id="enable_advanced_subscriptions" value="yes"<?php echo (wp_comment_subscriptions_get_option('enable_advanced_subscriptions') == 'yes')?' checked="checked"':''; ?>> <?php _e('Yes','wp-comment-subscriptions') ?> &nbsp; &nbsp; &nbsp;
 			<input type="radio" name="options[enable_advanced_subscriptions]" value="no" <?php echo (wp_comment_subscriptions_get_option('enable_advanced_subscriptions') == 'no')?'  checked="checked"':''; ?>> <?php _e('No','wp-comment-subscriptions') ?>
 			<div class="description"><?php _e('Allow users to choose from different subscription types (all, replies only).','wp-comment-subscriptions'); ?></div></td>
+	</tr>
+	<tr>
+		<th scope="row"><label for="advanced_default"><?php _e('Advanced default','wp-comment-subscriptions') ?></label></th>
+		<td>
+			<select name="options[advanced_default]" id='advanced_default'>
+				<option value='0' <?php echo ( wp_comment_subscriptions_get_option('advanced_default') === '0') ? "selected='selected'" : ''; ?>><? _e("None",'wp-comment-subscriptions') ?></option>
+				<option value='1' <?php echo ( wp_comment_subscriptions_get_option('advanced_default') === '1') ? "selected='selected'" : ''; ?>><? _e("All new comments",'wp-comment-subscriptions') ?></option>
+				<option value='2' <?php echo ( wp_comment_subscriptions_get_option('advanced_default') === '2') ? "selected='selected'" : ''; ?>> <?php _e('Replies to this comment','wp-comment-subscriptions') ?></option>
+			</select>
+			<div class="description"><?php _e('The default subscription type that should be selected when Advanced subscriptions are enabled.','wp-comment-subscriptions'); ?></div></td>
 	</tr>
 	<tr>
 		<th scope="row"><label for="checkbox_inline_style"><?php _e('Custom inline style','wp-comment-subscriptions') ?></label></th>
