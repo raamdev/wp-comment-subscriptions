@@ -2,13 +2,13 @@
 /*
 Plugin Name: WP Comment Subscriptions
 
-Version: 140109
-Stable tag: 140109
+Version: 140128
+Stable tag: 140128
 Requires at least: 2.9.2
 Tested up to: 3.8
 
 Plugin URI: http://wordpress.org/extend/plugins/wp-comment-subscriptions/
-Description: Give commenters the ability to receive e-mail notifications for all new comment replies or only replies to their comments.
+Description: **DEVELOPMENT HALTED**. All features and bug fixes from WP Comment Subscriptions have been rolled into the latest version of the Subscribe to Comments Reloaded plugin, including a new import routine that will automatically import WP Comment Subscriptions data and options. I have refocused my effort on improving the Subscribe to Comments Reloaded plugin and will no longer be maintaining WP Comment Subscriptions.
 
 Text Domain: wp-comment-subscriptions
 Domain Path: /langs
@@ -102,7 +102,7 @@ if (get_option('wp_comment_subscriptions_show_subscription_box', 'yes') == 'yes'
 
 class wp_comment_subscriptions {
 
-	public $current_version = '140109';
+	public $current_version = '140128';
 
 	/**
 	 * Constructor -- Sets things up.
@@ -177,6 +177,17 @@ class wp_comment_subscriptions {
 
 		$version= get_option('wp_comment_subscriptions_version');
 		if ($version != $this->current_version) {
+
+			$notices = get_option('wp_comment_subscriptions_deferred_admin_notices', array());
+			$notices[] = '<div class="error"><h3>' . __('Important Notice Regarding the WP Comment Subscriptions plugin', 'wp-comment-subscriptions') . '</h3>'.
+						 '<p>' . __('<strong>DEVELOPMENT OF WP COMMENT SUBSCRIPTIONS HAS BEEN HALTED AND all features and bug fixes have been rolled into the <a href="http://wordpress.org/plugins/subscribe-to-comments-reloaded/">Subscribe to Comments Reloaded</a> plugin.</strong>', 'wp-comment-subscriptions') . '</p>' .
+						 '<p>' . __('WP Comment Subscriptions was a fork of the Subscribe to Comments Reloaded plugin. This fork was released after I was unable to get in touch with the developers of Subscribe to Comments Reloaded to patch existing bugs. However, shortly after releasing WP Comment Subscriptions, the developers <a href="http://wordpress.org/support/topic/subscribe-without-commenting-if-already-subscribed?replies=14#post-5091921">connected with me</a> and I agreed to refocus my effort on improving the already established Subscribe to Comments Reloaded plugin.', 'wp-comment-subscriptions') . '</p>' .
+						 '<p>' . __('<strong>I am refocusing my effort and now actively maintaining Subscribe to Comments Reloaded</strong>. All of the bug fixes and features added by the WP Comment Subscriptions fork have been rolled into the latest version of <a href="http://wordpress.org/plugins/subscribe-to-comments-reloaded/changelog/">Subscribe to Comments Reloaded (v140128)</a>. To continue receiving my bug fixes and feature additions, please switch to Subscribe to Comments Reloaded.', 'wp-comment-subscriptions') . '</p>' .
+						 '<p>' . __('<strong>Subscribe to Comments Reloaded v140128 includes a new import routine for WP Comment Subscriptions</strong>. This import routine will automatically import subscription data and options from WP Comment Subscriptions to make migration easy. (<strong>For the import routine to work, you must</strong> first make sure that you\'ve <strong>completely deleted</strong> any existing Subscribe to Comments Reloaded plugin, which will clear the database of any old StCR data; then you can install the latest version of StCR and it will detect and import your WP Comment Subscriptions data and options).', 'wp-comment-subscriptions') . '</p>' .
+						 '<p>' . __('Subscribe to Comments Reloaded also has <a href="https://github.com/stcr/subscribe-to-comments-reloaded">a new GitHub repo</a>. If you have any feature requests or bugs to report, please do so on GitHub.', 'wp-comment-subscriptions') . '</p>' .
+						 '<p>' . __('To prevent any confusion, I will soon be requesting that the WP Comment Subscriptions plugin be removed from the WordPress.org Plugins Repository. If you have any questions about migrating from WP Comment Subscriptions to Subscribe to Comments Reloaded, please <a href="https://github.com/stcr/subscribe-to-comments-reloaded/issues/new">open a GitHub issue</a> and I will take care of you.', 'wp-comment-subscriptions') . '</p></div>';
+			update_option('wp_comment_subscriptions_deferred_admin_notices', $notices);
+
 			// Do whatever upgrades needed here.
 			update_option('wp_comment_subscriptions_version', $this->current_version);
 		}

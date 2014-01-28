@@ -2,13 +2,13 @@
 
 Plugin Name: WP Comment Subscriptions
 
-Version: 140109
-Stable tag: 140109
+Version: 140128
+Stable tag: 140128
 Requires at least: 2.9.2
 Tested up to: 3.8
 
 Plugin URI: http://wordpress.org/extend/plugins/wp-comment-subscriptions/
-Description: Give commenters the ability to receive e-mail notifications for all new comment replies or only replies to their comments.
+Description: **DEVELOPMENT HALTED**. All features and bug fixes from WP Comment Subscriptions have been rolled into the latest version of the Subscribe to Comments Reloaded plugin, including a new import routine that will automatically import WP Comment Subscriptions data and options. I have refocused my effort on improving the Subscribe to Comments Reloaded plugin and will no longer be maintaining WP Comment Subscriptions.
 
 Text Domain: wp-comment-subscriptions
 Domain Path: /langs
@@ -22,79 +22,34 @@ License: GNU General Public License v2 or later.
 
 Tags: subscribe, comments, notification, subscription, manage, double check-in, follow, commenting, subscribe to comments, comment subscriptions, comment notifications
 
-Give commenters the ability to receive e-mail notifications for all new comment replies or only replies to their comments.
+**DEVELOPMENT HALTED**. All features and bug fixes from WP Comment Subscriptions have been rolled into the Subscribe to Comments Reloaded plugin.
 
 == Description ==
 
-WP Comment Subscriptions gives commenters the ability to sign up for e-mail notifications when a new comment is published to a post, or only when someone replies to their comment. The 'Replies only' feature helps the subscriber receive notifications only for comments that are in response to their own comment, as opposed to every single new comment.
-
-The plugin includes a full-featured subscription manager that your commenters can use to unsubscribe from certain posts or suspend all notifications. It allows administrators to enable a double opt-in mechanism, requiring users to confirm their subscription by clicking a link they will receive via email.
-
-This plugin fixes problems with the Subscribe to Comments Reloaded plugin that prevent users from being able to signup to receive notifications only when someone replies to their comment, as opposed to receiving notifications for all new comments. It also fixes issues with HTML-formatted emails and adds a new option that allows you to BCC the administrator a copy of all outgoing notifications.
-
-Development of this plugin is ongoing and I welcome bug reports, feature requests, and pull requests [over at GitHub](https://github.com/raamdev/wp-comment-subscriptions/).
-
-= Requirements =
-
-* Wordpress 2.9.2 or higher
-* PHP 5.1 or higher
-* MySQL 5.x or higher
-
-= Main Features =
-
-* Does not modify Wordpress core tables
-* Easily manage and search among your subscriptions
-* Imports Subscribe to Comments Reloaded plugin options and data
-* Imports Mark Jaquith's Subscribe To Comments (and its clones) data
-* Lets commenters choose to receive only replies to their own comments
-* Messages are fully customizable, no poEdit required (and you can use HTML!)
-* Disable subscriptions for specific posts
-* Compatible with [Fluency Admin](http://deanjrobinson.com/projects/fluency-admin/) and [QTranslate](http://wordpress.org/extend/plugins/qtranslate/)
+**DEVELOPMENT HALTED**. All features and bug fixes from WP Comment Subscriptions have been rolled into the Subscribe to Comments Reloaded plugin. Please see the changelog for further information.
 
 == Installation ==
 
-1. If you are using Subscribe To Comments by Mark Jaquith or Subscribe To Comments Reloaded, disable them (but don't delete until after activating this plugin, so this plugin can import any existing options and comment subscription data)
-2. Upload the entire folder and all the subfolders to your WordPress plugins' folder
-3. Activate it
-5. Customize the Permalink value under Settings > Comment Subscriptions > Management Page > Management URL. It **must** reflect your permalinks' structure
-5. If you don't see the checkbox to subscribe, you will have to manually edit your template, and add `<?php if (function_exists('wp_comment_subscriptions_show')) wp_comment_subscriptions_show(); ?>` somewhere in your `comments.php`
-6. If you're upgrading from a previous version, please **make sure to deactivate/activate** WP Comment Subscriptions
-
-Note: If you were previously using Subscribe to Comments Reloaded, note that function and shortcode names have changed. If you were previously using the `subscribe_reloaded_show()` function or the `[subscribe-url]` shortcode, you'll need to replace those with `wp_comment_subscriptions_show()` and `[wpcs-subscribe-url]` respectively.
-
 == Frequently Asked Questions ==
-
-= Can I customize the layout of the management page? =
-Yes, each HTML tag has a CSS class or ID that you can use to change its position or look-and-feel
-
-= How do I disable subscriptions for a given post? =
-Add a custom field called `stcr_disable_subscriptions` to it, with value 'yes'
-
-= How do I add the management page URL to my posts? =
-Use the shortcode `[wpcs-subscribe-url]`, or use the following code in your theme:
-`if(function_exists('wp_comment_subscriptions_show')) echo '<a href="'.do_shortcode('[wpcs-subscribe-url]').'">Subscribe</a>";`
-
-= Can I move the subscription checkbox to another position? =
-Yes! Just disable the corresponding option under Settings > Comment Form and then add the following code where you want to display the checkbox:
-`<?php if (function_exists('wp_comment_subscriptions_show')) wp_comment_subscriptions_show(); ?>`
-
-= This plugin looks eerily similar to the Subscribe To Comments Reloaded plugin; what gives? =
-This plugin was forked from the Subscribe To Comments Reloaded plugin. There were several broken features in that plugin (including most importantly the ability to receive only replies to your own comment) and a few missing features (such as the ability to BCC the administrator a copy of all notifications; very useful for debugging!) that WP Comment Subscriptions has fixed. The original Subscribe To Comments Reloaded plugin author stopped working on that plugin and development slowed, so I took it upon myself to fork the plugin and continue development.
-
-= How can I submit a bug report or make a feature request? =
-If you have a bug to report or a feature request you'd like to make, please open a new issue on [GitHub](http://github.com/raamdev/wp-comment-subscriptions/issues/). That will be the fastest way to get a response.
 
 == Screenshots ==
 
-1. Manage your subscriptions
-2. Use your own messages to interact with your users
-3. Configure the Virtual Management page
-4. Customize the notification messages
-5. Customize the plugin's behavior
-
 == Upgrade Notice ==
 
+= 140128 =
+
+* **DEVELOPMENT HALTED**. All features and bug fixes from WP Comment Subscriptions have been rolled into the Subscribe to Comments Reloaded plugin.
+
 == Changelog ==
+
+= v140128 =
+
+* **DEVELOPMENT OF WP COMMENT SUBSCRIPTIONS HAS BEEN HALTED AND all features and bug fixes have been rolled into the Subscribe to Comments Reloaded plugin.**
+* WP Comment Subscriptions was a fork of the Subscribe to Comments Reloaded plugin. This fork was released after I was unable to get in touch with the developers of Subscribe to Comments Reloaded to patch existing bugs. However, shortly after releasing WP Comment Subscriptions, the developers [connected with me](http://wordpress.org/support/topic/subscribe-without-commenting-if-already-subscribed?replies=14#post-5091921) and I agreed to refocus my effort on improving the already established Subscribe to Comments Reloaded plugin.
+* **I am refocusing my effort and now actively maintaining Subscribe to Comments Reloaded**. All of the bug fixes and features added by the WP Comment Subscriptions fork have been rolled into the latest version of [Subscribe to Comments Reloaded (v140128)](http://wordpress.org/plugins/subscribe-to-comments-reloaded/changelog/). To continue receiving my bug fixes and feature additions, please switch to Subscribe to Comments Reloaded.
+* **Subscribe to Comments Reloaded v140128 includes a new import routine for WP Comment Subscriptions**. This import routine will automatically import subscription data and options from WP Comment Subscriptions to make migration easy. (**For the import routine to work, you must** first make sure that you've **completely deleted** any existing Subscribe to Comments Reloaded plugin, which will clear the database of any old StCR data; then you can install the latest version of StCR and it will detect and import your WP Comment Subscriptions data and options).
+* Subscribe to Comments Reloaded also has [a new GitHub repo](https://github.com/stcr/subscribe-to-comments-reloaded). If you have any feature requests or bugs to report, please do so on GitHub.
+* To prevent any confusion, I will soon be requesting that the WP Comment Subscriptions plugin be removed from the WordPress.org Plugins Repository. If you have any questions about migrating from WP Comment Subscriptions to Subscribe to Comments Reloaded, please [open a GitHub issue](https://github.com/stcr/subscribe-to-comments-reloaded/issues/new) and I will take care of you.
 
 = v140109 =
 
@@ -125,25 +80,3 @@ If you have a bug to report or a feature request you'd like to make, please open
 
 * Renamed functions and WordPress options to reflect the new plugin name (WP Comment Subscriptions). If you're using `subscribe_reloaded_show()` in your WordPress theme, you'll need to change that to `wp_comment_subscriptions_show()`. The subscription data in the database however has not changed and still uses the `stcr@` key, so it's fully compatible with Subscribe to Comments Reloaded v2.0.6.
 * Forked the [Subscribe to Comments Reloaded Plugin](http://wordpress.org/plugins/subscribe-to-comments-reloaded/) from v2.0.6
-
-== Language Localization ==
-
-WP Comment Subscriptions can speak your language! If you want to provide a localized file in your
-language, use the template files (.pot) you'll find inside the `langs` folder,
-and open a new issue on [GitHub](http://github.com/raamdev/wp-comment-subscriptions/issues/) once your
-localization is ready. Currently, we support the following languages:
-
-* Danish - [Torben Bendixen](http://www.freelancekonsulenten.dk/)
-* Dutch - [Muratje](http://www.muromedia.nl/)
-* French - [Anthony](http://imnotgeek.com/), Goormand, Maxime
-* German - [derhenry](http://www.derhenry.net/2010/wp-comment-subscriptions/), [Stefan](http://www.beedy.de/)
-* Indonesian - [The Masked Cat](http://themaskedcat.tk)
-* Italian - myself
-* Norwegian - [Odd Henriksen](http://www.oddhenriksen.net/)
-* Polish - [Robert Koeseling](http://www.katalogpodkastow.pl), [Filip Cierpich](http://keepmind.eu/)
-* Portuguese, Brazil - [Ronaldo Richieri](http://richieri.com), [ClassiNoiva](http://www.classinoiva.com.br), [Luciano](http://litemind.com/)
-* Portuguese, Portugal
-* Russian - [Marika Bukvonka](http://violetnotes.com)
-* Serbian - [Anna Swedziol](http://www.sneg.iz.rs/)
-* Spanish - [TodoWordPress team](http://www.todowp.org/), [Juan Luis Perez](http://www.juanluperez.com/)
-* Turkish - [MaD, Kali](http://www.dusunsel.com/)
